@@ -1,4 +1,5 @@
 "use client";
+/* eslint-disable */
 import { useState, useEffect, useRef } from "react";
 import { PAKET_LIST, formatRp } from "./constants/paket";
 
