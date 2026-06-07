@@ -817,12 +817,17 @@ export default function LandingUI({ data }: { data: any }) {
               kami melalui WhatsApp yang tersedia 24/7.
             </p>
             <div className="pt-2">
-              <button className="w-full sm:w-auto flex items-center justify-center gap-3 px-6 py-3 bg-white rounded-xl border border-outline-variant/30 font-bold hover:bg-slate-50 transition-colors">
+              <a 
+                href="https://wa.me/6282339363042" 
+                target="_blank"
+                rel="noreferrer"
+                className="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-6 py-3 bg-white rounded-xl border border-outline-variant/30 font-bold hover:bg-slate-50 transition-colors"
+              >
                 <span className="material-symbols-outlined text-green-500">
                   chat
                 </span>
-                Hubungi Support via WhatsApp
-              </button>
+                WhatsApp: 082339363042
+              </a>
             </div>
           </div>
 
@@ -928,25 +933,32 @@ export default function LandingUI({ data }: { data: any }) {
             </ul>
           </div>
 
-          {/* Perusahaan */}
+          {/* Perusahaan & Kontak */}
           <div className="space-y-6">
-            <h5 className="text-white font-bold">Perusahaan</h5>
+            <h5 className="text-white font-bold">Kontak & Perusahaan</h5>
             <ul className="space-y-4">
-              {[
-                "Tentang Kami",
-                "Kebijakan Privasi",
-                "Syarat & Ketentuan",
-                "Hubungi Kami",
-              ].map((item) => (
-                <li key={item}>
-                  <a
-                    href="#"
-                    className="text-sm text-slate-400 hover:text-tertiary-fixed-dim transition-colors"
-                  >
-                    {item}
-                  </a>
-                </li>
-              ))}
+              <li>
+                <a href="https://wa.me/6282339363042" target="_blank" rel="noreferrer" className="flex items-center gap-2 text-sm text-slate-400 hover:text-tertiary-fixed-dim transition-colors">
+                  <span className="material-symbols-outlined text-sm">chat</span>
+                  WhatsApp: 082339363042
+                </a>
+              </li>
+              <li>
+                <a href="mailto:skditumudah02@gmail.com" className="flex items-center gap-2 text-sm text-slate-400 hover:text-tertiary-fixed-dim transition-colors">
+                  <span className="material-symbols-outlined text-sm">mail</span>
+                  skditumudah02@gmail.com
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-sm text-slate-400 hover:text-tertiary-fixed-dim transition-colors">
+                  Syarat & Ketentuan
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-sm text-slate-400 hover:text-tertiary-fixed-dim transition-colors">
+                  Kebijakan Privasi
+                </a>
+              </li>
             </ul>
           </div>
 
