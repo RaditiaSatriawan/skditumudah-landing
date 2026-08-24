@@ -2,43 +2,7 @@
 /* eslint-disable */
 import { useState, useEffect, useRef } from "react";
 import { PAKET_LIST, formatRp } from "./constants/paket";
-
-
-export const links = () => [
-  {
-    rel: "stylesheet",
-    href: "https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200",
-  },
-];
-
-
-const faqData = [
-  {
-    question: "Apakah materi soal sesuai kisi-kisi terbaru?",
-    answer:
-      "Tentu saja! Tim kami selalu memperbarui bank soal setiap kali ada update resmi dari BKN mengenai kisi-kisi SKD CPNS maupun Sekolah Kedinasan tahun 2024.",
-  },
-  {
-    question: "Berapa lama masa aktif paket premium?",
-    answer:
-      "Masa aktif paket Premium adalah 1 bulan, Premium Plus 3 bulan, dan Premium Sultan 12 bulan sejak tanggal aktivasi.",
-  },
-  {
-    question: "Apakah bisa diakses lewat smartphone?",
-    answer:
-      "Tentu! Platform kami sepenuhnya responsif dan bisa diakses dari HP, tablet, maupun laptop dengan nyaman.",
-  },
-  {
-    question: "Metode pembayaran apa saja yang tersedia?",
-    answer:
-      "Kami menerima transfer bank, QRIS, GoPay, OVO, Dana, dan berbagai metode pembayaran digital lainnya.",
-  },
-  {
-    question: "Apakah ada garansi uang kembali?",
-    answer:
-      "Ya! Kami memberikan garansi uang kembali 7 hari jika kamu tidak puas dengan layanan kami.",
-  },
-];
+import { FAQ, SOSIAL } from "./lib/seo";
 
 const FILL_1 = { fontVariationSettings: "'FILL' 1" };
 
@@ -106,7 +70,10 @@ export default function LandingUI({ data }: { data: any }) {
           <div className="flex items-center gap-3">
             <img
               src="/logo.png"
-              alt="skditumudah logo"
+              alt="Logo skditumudah.com"
+              width={2000}
+              height={2000}
+              decoding="async"
               className="h-12 w-auto object-contain"
               onError={(e) => {
                 e.currentTarget.style.display = "none";
@@ -217,6 +184,7 @@ export default function LandingUI({ data }: { data: any }) {
         )}
       </header>
 
+      <main>
       {/* ── Hero Section ── */}
       <section
         id="hero"
@@ -294,7 +262,11 @@ export default function LandingUI({ data }: { data: any }) {
               <div className="relative bg-primary-container rounded-3xl lg:rounded-[3rem] overflow-hidden shadow-2xl rotate-1 lg:rotate-2">
                 <img
                   src="/images/hero.jpg"
-                  alt="Student studying for SKD exam"
+                  width={2631}
+                  height={1435}
+                  fetchPriority="high"
+                  decoding="async"
+                  alt="Peserta sedang berlatih soal SKD CPNS di depan layar komputer"
                   className="w-full h-auto object-cover block"
                   onError={(e) => {
                     const parent = e.currentTarget.parentElement;
@@ -392,7 +364,7 @@ export default function LandingUI({ data }: { data: any }) {
                     {icon}
                   </span>
                 </div>
-                <h3 className="text-2xl md:text-3xl font-black text-primary">{value}</h3>
+                <p className="text-2xl md:text-3xl font-black text-primary">{value}</p>
                 <p className="text-on-secondary-container font-medium text-xs md:text-base">{label}</p>
               </div>
             ))}
@@ -445,7 +417,7 @@ export default function LandingUI({ data }: { data: any }) {
                       {icon}
                     </span>
                   </div>
-                  <h4 className="text-lg md:text-xl font-bold">{title}</h4>
+                  <h3 className="text-lg md:text-xl font-bold">{title}</h3>
                   <p className="text-on-secondary-container text-sm md:text-base leading-relaxed">
                     {desc}
                   </p>
@@ -498,7 +470,7 @@ export default function LandingUI({ data }: { data: any }) {
             <div className="flex-1 w-full max-w-sm md:max-w-md">
               <div className="bg-white rounded-3xl p-5 md:p-6 shadow-2xl rotate-1 md:rotate-2">
                 <div className="flex justify-between items-center mb-6">
-                  <h5 className="font-bold">Analisis TWK</h5>
+                  <p className="font-bold">Analisis TWK</p>
                   <span className="text-xs bg-primary-fixed text-primary px-2 py-1 rounded-lg font-bold">
                     Butuh Perbaikan
                   </span>
@@ -552,7 +524,7 @@ export default function LandingUI({ data }: { data: any }) {
                     {fitur.icon}
                   </span>
                 </div>
-                <h4 className="text-lg md:text-xl font-bold mb-2 md:mb-3">{fitur.judul}</h4>
+                <h3 className="text-lg md:text-xl font-bold mb-2 md:mb-3">{fitur.judul}</h3>
                 <p className="text-on-secondary-container text-sm leading-relaxed">
                   {fitur.deskripsi}
                 </p>
@@ -760,7 +732,9 @@ export default function LandingUI({ data }: { data: any }) {
                     {a.thumbnail ? (
                       <img
                         src={a.thumbnail}
-                        alt={a.judul}
+                        alt={`Gambar artikel ${a.judul}`}
+                        loading="lazy"
+                        decoding="async"
                         className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                       />
                     ) : (
@@ -832,7 +806,7 @@ export default function LandingUI({ data }: { data: any }) {
           </div>
 
           <div className="space-y-3 md:space-y-4">
-            {faqData.map((item, i) => (
+            {FAQ.map((item, i) => (
               <div
                 key={i}
                 className="bg-surface-container-lowest rounded-2xl shadow-sm overflow-hidden border border-outline-variant/10"
@@ -889,6 +863,8 @@ export default function LandingUI({ data }: { data: any }) {
         </div>
       </section>
 
+      </main>
+
       {/* ── Footer ── */}
       <footer className="bg-on-background w-full pt-12 md:pt-16 pb-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-12 px-5 sm:px-8 max-w-7xl mx-auto mb-10 md:mb-16">
@@ -897,7 +873,11 @@ export default function LandingUI({ data }: { data: any }) {
             <div className="flex items-center gap-3">
               <img
                 src="/logo.png"
-                alt="skditumudah logo"
+                alt="Logo skditumudah.com"
+                width={2000}
+                height={2000}
+                loading="lazy"
+                decoding="async"
                 className="h-12 w-auto object-contain"
                 onError={(e) => {
                   e.currentTarget.style.display = "none";
@@ -913,17 +893,17 @@ export default function LandingUI({ data }: { data: any }) {
 
           {/* Layanan */}
           <div className="space-y-6">
-            <h5 className="text-white font-bold">Layanan Kami</h5>
+            <h2 className="text-white font-bold text-base">Layanan Kami</h2>
             <ul className="space-y-4">
               {[
-                "Tryout SKD CPNS",
-                "Simulasi CAT Kedinasan",
-                "Bank Soal Terupdate",
-                "Video Pembahasan",
-              ].map((item) => (
+                ["Tryout SKD CPNS", "#fitur"],
+                ["Simulasi CAT Kedinasan", "#fitur"],
+                ["Bank Soal Terupdate", "#cara-kerja"],
+                ["Paket Berlangganan", "#pricing"],
+              ].map(([item, tujuan]) => (
                 <li key={item}>
                   <a
-                    href="#"
+                    href={tujuan}
                     className="text-sm text-slate-400 hover:text-tertiary-fixed-dim transition-colors"
                   >
                     {item}
@@ -935,7 +915,7 @@ export default function LandingUI({ data }: { data: any }) {
 
           {/* Perusahaan & Kontak */}
           <div className="space-y-6">
-            <h5 className="text-white font-bold">Kontak & Perusahaan</h5>
+            <h2 className="text-white font-bold text-base">Kontak & Perusahaan</h2>
             <ul className="space-y-4">
               <li>
                 <a href="https://wa.me/6282339363042" target="_blank" rel="noreferrer" className="flex items-center gap-2 text-sm text-slate-400 hover:text-tertiary-fixed-dim transition-colors">
@@ -950,12 +930,12 @@ export default function LandingUI({ data }: { data: any }) {
                 </a>
               </li>
               <li>
-                <a href="#" className="text-sm text-slate-400 hover:text-tertiary-fixed-dim transition-colors">
-                  Syarat & Ketentuan
+                <a href="https://app.skditumudah.com/syarat" className="text-sm text-slate-400 hover:text-tertiary-fixed-dim transition-colors">
+                  Syarat &amp; Ketentuan
                 </a>
               </li>
               <li>
-                <a href="#" className="text-sm text-slate-400 hover:text-tertiary-fixed-dim transition-colors">
+                <a href="https://app.skditumudah.com/privasi" className="text-sm text-slate-400 hover:text-tertiary-fixed-dim transition-colors">
                   Kebijakan Privasi
                 </a>
               </li>
@@ -964,13 +944,15 @@ export default function LandingUI({ data }: { data: any }) {
 
           {/* Newsletter */}
           <div className="space-y-6">
-            <h5 className="text-white font-bold">Berlangganan Tips</h5>
+            <h2 className="text-white font-bold text-base">Berlangganan Tips</h2>
             <p className="text-sm text-slate-400">
               Dapatkan tips &amp; trik lolos SKD langsung ke email kamu.
             </p>
             <div className="flex gap-2">
               <input
                 type="email"
+                name="email"
+                aria-label="Alamat surel untuk berlangganan tips"
                 placeholder="Email kamu"
                 className="bg-white/10 border-0 rounded-xl px-3 py-2.5 text-sm text-white placeholder-slate-500 focus:ring-2 focus:ring-tertiary-fixed-dim w-full min-w-0"
               />
@@ -983,23 +965,19 @@ export default function LandingUI({ data }: { data: any }) {
 
         <div className="max-w-7xl mx-auto px-5 sm:px-8 pt-6 md:pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4 md:gap-6">
           <p className="text-sm text-slate-300">
-            © 2024 skditumudah.com - Teman Belajar SKD Terpercaya
+            © {new Date().getFullYear()} skditumudah.com — Teman Belajar SKD Terpercaya
           </p>
           <div className="flex items-center gap-6">
-            {(
-              [
-                ["social_leaderboard", "Instagram"],
-                ["play_circle", "YouTube"],
-                ["language", "Website"],
-              ] as [string, string][]
-            ).map(([icon, label]) => (
+            {SOSIAL.map(({ ikon, label, url }) => (
               <a
-                key={icon}
-                href="#"
+                key={label}
+                href={url}
+                target="_blank"
+                rel="noreferrer"
                 aria-label={label}
                 className="text-slate-400 hover:text-white transition-colors opacity-80 hover:opacity-100"
               >
-                <span className="material-symbols-outlined">{icon}</span>
+                <span className="material-symbols-outlined">{ikon}</span>
               </a>
             ))}
           </div>
