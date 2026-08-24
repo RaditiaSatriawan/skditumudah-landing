@@ -1,13 +1,9 @@
 import LandingUI from "./LandingUI";
 
-// SEO Metadata
-export const metadata = {
-  title: "skditumudah.com — Platform Tryout SKD Terlengkap untuk CPNS & Kedinasan",
-  description: "Latihan SKD online dengan analitik AI personal, pembahasan mendalam tiap soal, dan komunitas Discord premium. Gratis 2 sesi tryout pertama.",
-  openGraph: {
-    title: "skditumudah.com — Tryout SKD Terlengkap",
-  }
-};
+// Keterangan halaman untuk mesin pencari seluruhnya disusun di app/layout.tsx
+// supaya hanya ada satu sumber. Menuliskannya kembali di sini justru menimpa
+// bagian yang lebih lengkap di sana, misalnya alamat kanonik dan gambar
+// bagikan, sehingga sengaja tidak dilakukan.
 
 export default async function Page() {
   // Fallback data kosong agar UI tidak crash jika API gagal
@@ -24,10 +20,10 @@ export default async function Page() {
     // Menggunakan ISR (Incremental Static Regeneration)
     // Next.js akan men-cache data ini dan memperbaruinya di background setiap 60 detik.
     // Ini membuat Vercel sangat cepat tapi datanya tetap "real-time" dengan Admin Panel Anda.
-    const res = await fetch("https://skditumudah.com/api/public/landing", { 
-      next: { revalidate: 60 } 
+    const res = await fetch("https://skditumudah.com/api/public/landing", {
+      next: { revalidate: 60 }
     });
-    
+
     if (res.ok) {
       const json = await res.json();
       if (json.success) {
@@ -40,10 +36,5 @@ export default async function Page() {
     console.error("Gagal menarik data dari VPS:", error);
   }
 
-  return (
-    <>
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-      <LandingUI data={landingData} />
-    </>
-  );
+  return <LandingUI data={landingData} />;
 }
