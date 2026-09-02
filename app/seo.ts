@@ -3,10 +3,15 @@
  *
  * Dipisahkan supaya alamat situs, nama, dan gambar bagikan tidak ditulis ulang
  * di beberapa berkas sekaligus lalu berbeda satu sama lain.
+ *
+ * Alamatnya memakai awalan www sebab bentuk tanpa www dijawab pengalihan 307
+ * menuju www. Menuliskan bentuk tanpa www di sini membuat seluruh tautan
+ * kanonis dan isi peta situs menunjuk alamat yang mengalihkan, dan sinyal
+ * pencariannya terpecah antara dua bentuk alamat yang sama.
  */
 
 export const SITUS = {
-  url: "https://skditumudah.com",
+  url: "https://www.skditumudah.com",
   aplikasi: "https://app.skditumudah.com",
   nama: "SKD Itu Mudah",
   merek: "skditumudah.com",
