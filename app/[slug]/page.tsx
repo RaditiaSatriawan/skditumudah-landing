@@ -5,7 +5,7 @@ import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import { getAllArticleSlugs, getArticle } from "@/lib/articles";
 
-const SITE = "https://skditumudah.com";
+const SITE = "https://www.skditumudah.com";
 
 type PageProps = { params: Promise<{ slug: string }> };
 

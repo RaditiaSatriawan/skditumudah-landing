@@ -4,7 +4,7 @@ import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
-const SITE = "https://skditumudah.com";
+const SITE = "https://www.skditumudah.com";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE),

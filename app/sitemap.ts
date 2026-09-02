@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 import { getAllArticleSlugs } from "@/lib/articles";
 
-const SITE = "https://skditumudah.com";
+const SITE = "https://www.skditumudah.com";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const articles = getAllArticleSlugs().map((slug) => ({

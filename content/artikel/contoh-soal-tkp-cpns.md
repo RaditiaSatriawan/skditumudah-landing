@@ -236,7 +236,7 @@ Pelajaran dari tabel: menjawab semua soal dengan skor 3 saja **tidak cukup**. Ku
 
 ## Latihan Lebih Banyak: Coba Tryout SKD Online
 
-Memahami pola saja belum cukup — TKP butuh latihan agar insting memilih jawaban "paling ASN" terbentuk. Untuk simulasi yang mendekati ujian asli, coba halaman [try out SKD CPNS online di Skditumudah](https://skditumudah.com/tryout) yang menyediakan paket latihan soal bergaya CAT dengan pembahasan. Baca juga [Kisi-kisi Materi SKD CPNS 2026](https://skditumudah.com/kisi-kisi-materi-skd-cpns-2026) untuk peta lengkap materi TWK, TIU, dan TKP sebelum mulai latihan.
+Memahami pola saja belum cukup — TKP butuh latihan agar insting memilih jawaban "paling ASN" terbentuk. Untuk simulasi yang mendekati ujian asli, coba halaman [try out SKD CPNS online di Skditumudah](https://www.skditumudah.com/tryout) yang menyediakan paket latihan soal bergaya CAT dengan pembahasan. Baca juga [Kisi-kisi Materi SKD CPNS 2026](https://www.skditumudah.com/kisi-kisi-materi-skd-cpns-2026) untuk peta lengkap materi TWK, TIU, dan TKP sebelum mulai latihan.
 
 ## FAQ Seputar TKP CPNS
 

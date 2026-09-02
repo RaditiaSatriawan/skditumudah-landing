@@ -105,7 +105,7 @@ Ingat, seluruh proses pendaftaran CPNS dilakukan melalui SSCASN dan **tidak dipu
 
 Meski jadwal belum keluar, persiapan bisa dimulai dari sekarang. Dokumen yang umumnya dibutuhkan saat pendaftaran: KTP elektronik, Kartu Keluarga, ijazah dan transkrip nilai, pas foto terbaru, serta swafoto.
 
-Untuk menghadapi SKD (TWK, TIU, TKP), kamu bisa berlatih soal di halaman try out Skditumudah: **[Try Out SKD CPNS](https://skditumudah.com/tryout)**. Sambil berlatih, pantau juga artikel kami berikutnya tentang **passing grade SKD CPNS** agar tahu standar nilai yang perlu dicapai (segera terbit).
+Untuk menghadapi SKD (TWK, TIU, TKP), kamu bisa berlatih soal di halaman try out Skditumudah: **[Try Out SKD CPNS](https://www.skditumudah.com/tryout)**. Sambil berlatih, pantau juga artikel kami berikutnya tentang **passing grade SKD CPNS** agar tahu standar nilai yang perlu dicapai (segera terbit).
 
 ## FAQ Singkat
 

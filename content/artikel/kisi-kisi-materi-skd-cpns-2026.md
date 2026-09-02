@@ -142,7 +142,7 @@ E. mengarahkannya ke loket lain tanpa penjelasan
 
 **Pembahasan (contoh distribusi bobot):** opsi **C** mendapat bobot tertinggi karena memadukan keramahtamahan, efektivitas pelayanan, dan penghargaan terhadap kewenangan warga atas datanya sendiri — inti nilai pelayanan publik. Opsi A dan E tetap bernilai (ada unsur membantu/merujuk) tetapi kurang efektif; opsi D berisiko karena mengambil keputusan atas data pribadi tanpa konfirmasi; opsi B menunda kebutuhan warga sehingga berbobot paling rendah. Semua opsi tetap mendapat nilai > 0 — itulah sistem gradasi TKP.
 
-**Pola memilih jawaban TKP:** bayangkan diri Anda sebagai ASN ideal — profesional, melayani, menjunjung integritas, dan menolak segala bentuk radikalisme. Pilih tindakan yang paling efektif menyelesaikan masalah dengan tetap menghormati orang lain, bukan yang paling cepat atau paling "heroik". Latihan lebih lanjut bisa Anda pelajari di [artikel contoh soal TKP CPNS dengan trik menaikkan skor](https://skditumudah.com/contoh-soal-tkp-cpns/) _(link silo seri soal — sesuaikan slug saat artikel terbit)_.
+**Pola memilih jawaban TKP:** bayangkan diri Anda sebagai ASN ideal — profesional, melayani, menjunjung integritas, dan menolak segala bentuk radikalisme. Pilih tindakan yang paling efektif menyelesaikan masalah dengan tetap menghormati orang lain, bukan yang paling cepat atau paling "heroik". Latihan lebih lanjut bisa Anda pelajari di [artikel contoh soal TKP CPNS dengan trik menaikkan skor](https://www.skditumudah.com/contoh-soal-tkp-cpns/) _(link silo seri soal — sesuaikan slug saat artikel terbit)_.
 
 ## Cara Memakai Kisi-kisi Ini untuk Belajar
 
@@ -153,7 +153,7 @@ Kisi-kisi hanya berguna jika diterjemahkan menjadi rencana belajar. Saran pembag
 3. **Minggu 3 — TIU verbal & figural:** latih analogi dan silogisme; biasakan mata membaca pola gambar.
 4. **Minggu 4 — TKP + simulasi:** pahami gradasi nilai 1–5, lalu kerjakan simulasi CAT 110 soal dalam 100 menit minimal dua kali.
 
-Selama belajar, gunakan [try out SKD CPNS online di Skditumudah](https://skditumudah.com/tryout/) untuk mengukur progres dengan format yang menyerupai CAT BKN _(path /tryout/ — sesuaikan jika halaman try out menggunakan path lain)_. Untuk mengetahui target skor yang aman dan ambang batas per jalur formasi, baca [artikel passing grade SKD CPNS](https://skditumudah.com/passing-grade-skd-cpns/) _(link silo — sesuaikan slug saat artikel terbit)_.
+Selama belajar, gunakan [try out SKD CPNS online di Skditumudah](https://www.skditumudah.com/tryout/) untuk mengukur progres dengan format yang menyerupai CAT BKN _(path /tryout/ — sesuaikan jika halaman try out menggunakan path lain)_. Untuk mengetahui target skor yang aman dan ambang batas per jalur formasi, baca [artikel passing grade SKD CPNS](https://www.skditumudah.com/passing-grade-skd-cpns/) _(link silo — sesuaikan slug saat artikel terbit)_.
 
 ## Pertanyaan yang Sering Diajukan (FAQ)
 

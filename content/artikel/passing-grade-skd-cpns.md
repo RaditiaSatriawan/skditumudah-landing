@@ -62,7 +62,7 @@ Ini bagian yang sering disalahpahami peserta. Memenuhi ambang batas hanya membua
 
 Kesimpulannya: di formasi dengan ribuan pelamar dan sedikit kursi, skor di atas ambang batas saja belum tentu aman. Peringkatlah yang menentukan.
 
-Sambil menunggu pengumuman jadwal resmi, gunakan waktu untuk memastikan [syarat dan dokumen pendaftaran CPNS 2026](https://skditumudah.com/syarat-dokumen-pendaftaran-cpns-2026/) Anda lengkap, lalu ukur kesiapan Anda dengan [try out SKD CPNS online di Skditumudah](https://skditumudah.com/tryout) yang meniru sistem CAT BKN.
+Sambil menunggu pengumuman jadwal resmi, gunakan waktu untuk memastikan [syarat dan dokumen pendaftaran CPNS 2026](https://www.skditumudah.com/syarat-dokumen-pendaftaran-cpns-2026/) Anda lengkap, lalu ukur kesiapan Anda dengan [try out SKD CPNS online di Skditumudah](https://www.skditumudah.com/tryout) yang meniru sistem CAT BKN.
 
 ## Target Skor Aman per Jalur
 

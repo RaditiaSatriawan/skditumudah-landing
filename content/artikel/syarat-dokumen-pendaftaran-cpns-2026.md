@@ -137,7 +137,7 @@ Sambil menunggu pengumuman resmi, ini yang bisa Anda kerjakan hari ini:
 3. **Perbarui dokumen** — misalnya pas foto terbaru atau SKCK jika instansi tujuan memintanya.
 4. **Latihan soal SKD** — tahapan seleksi umumnya diawali Seleksi Kompetensi Dasar (SKD) dengan sistem CAT. Nilai ambang (passing grade) 2026 belum diumumkan, tetapi latihan sejak dini jelas lebih baik daripada menunggu pengumuman.
 
-Nah, untuk poin terakhir, Anda bisa mulai dari sekarang: [coba tryout SKD CPNS gratis di Skditumudah](https://app.skditumudah.com/daftar) — platform latihan SKD dengan simulasi CAT yang mirip ujian sesungguhnya, lengkap dengan bank soal terbaru. Semakin awal berlatih, semakin siap Anda saat pendaftaran dan jadwal seleksi resmi diumumkan. Kunjungi juga [skditumudah.com](https://skditumudah.com) untuk info lengkapnya.
+Nah, untuk poin terakhir, Anda bisa mulai dari sekarang: [coba tryout SKD CPNS gratis di Skditumudah](https://app.skditumudah.com/daftar) — platform latihan SKD dengan simulasi CAT yang mirip ujian sesungguhnya, lengkap dengan bank soal terbaru. Semakin awal berlatih, semakin siap Anda saat pendaftaran dan jadwal seleksi resmi diumumkan. Kunjungi juga [skditumudah.com](https://www.skditumudah.com) untuk info lengkapnya.
 
 ## FAQ Singkat
 
@@ -153,7 +153,7 @@ Tidak ada. Seluruh proses pendaftaran gratis. Waspadai pungutan, "jasa calo", at
 **Apakah syarat di artikel ini sudah pasti berlaku untuk 2026?**
 Syarat umum di atas adalah acuan regulasi yang berlaku saat ini (PermenPAN-RB 6/2024). Ketentuan final seleksi 2026 — termasuk jadwal, formasi, batas usia, dan dokumen — mengikuti pengumuman resmi yang akan terbit. **Selalu cek ulang sebelum mendaftar.**
 
-**Checklist Anda sudah lengkap?** Uji kesiapan seleksi dengan [try out SKD CPNS online di Skditumudah](https://skditumudah.com/tryout), dan pantau terus [jadwal pendaftaran CPNS 2026](https://skditumudah.com/jadwal-pendaftaran-cpns-2026/) agar tidak ketinggalan pengumuman resmi BKN.
+**Checklist Anda sudah lengkap?** Uji kesiapan seleksi dengan [try out SKD CPNS online di Skditumudah](https://www.skditumudah.com/tryout), dan pantau terus [jadwal pendaftaran CPNS 2026](https://www.skditumudah.com/jadwal-pendaftaran-cpns-2026/) agar tidak ketinggalan pengumuman resmi BKN.
 
 ---
 
