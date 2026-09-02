@@ -64,3 +64,76 @@
 body {
   font-family: 'Inter', sans-serif;
 }
+
+/* --- Article (markdown) typography --- */
+.article h1 {
+  font-size: 2rem;
+  line-height: 1.25;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  color: #111c2d;
+  margin: 0 0 1rem;
+}
+.article h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #111c2d;
+  margin: 2.25rem 0 0.75rem;
+  line-height: 1.3;
+}
+.article h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #111c2d;
+  margin: 1.75rem 0 0.5rem;
+}
+.article p { margin: 0 0 1.1rem; line-height: 1.75; }
+.article ul, .article ol { margin: 0 0 1.1rem; padding-left: 1.5rem; line-height: 1.7; }
+.article ul { list-style: disc; }
+.article ol { list-style: decimal; }
+.article li { margin-bottom: 0.35rem; }
+.article a { color: #00236f; text-decoration: underline; text-underline-offset: 2px; }
+.article a:hover { color: #1e3a8a; }
+.article blockquote {
+  border-left: 4px solid #b6c4ff;
+  background: #f0f3ff;
+  margin: 1.25rem 0;
+  padding: 0.75rem 1.25rem;
+  color: #38485d;
+  border-radius: 0 0.5rem 0.5rem 0;
+}
+.article blockquote p { margin: 0; }
+.article table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.25rem 0;
+  font-size: 0.95rem;
+  display: block;
+  overflow-x: auto;
+}
+.article th, .article td {
+  border: 1px solid #c5c5d3;
+  padding: 0.55rem 0.75rem;
+  text-align: left;
+  vertical-align: top;
+}
+.article th { background: #e7eeff; font-weight: 700; color: #111c2d; }
+.article tr:nth-child(even) td { background: #fafbff; }
+.article code {
+  background: #e7eeff;
+  border-radius: 0.3rem;
+  padding: 0.1rem 0.35rem;
+  font-size: 0.875em;
+}
+.article pre {
+  background: #111c2d;
+  color: #ecf1ff;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  overflow-x: auto;
+  margin: 1.25rem 0;
+}
+.article pre code { background: transparent; color: inherit; padding: 0; }
+.article img { max-width: 100%; height: auto; border-radius: 0.5rem; margin: 1rem 0; }
+.article hr { border: none; border-top: 1px solid #c5c5d3; margin: 2rem 0; }
+.article strong { color: #111c2d; }
