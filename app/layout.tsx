@@ -1,43 +1,56 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import { SITUS } from "./seo";
 
 const inter = Inter({ subsets: ["latin"] });
 
-const SITE = "https://www.skditumudah.com";
-
+/**
+ * Penanda untuk seluruh halaman.
+ *
+ * Sebelumnya isinya hanya judul "skditumudah.com" dan deskripsi "Platform
+ * Tryout SKD", tanpa metadataBase, tautan kanonis, gambar bagikan, maupun
+ * kartu Twitter. Akibatnya tautan yang dibagikan ke WhatsApp atau media sosial
+ * tampil tanpa gambar dan tanpa keterangan, dan satu halaman yang dibuka
+ * dengan parameter penjejak berbeda terbaca sebagai beberapa halaman berisi
+ * hal yang sama.
+ *
+ * metadataBase membuat jalur relatif pada openGraph dan alternates disusun
+ * menjadi alamat penuh dengan sendirinya, sehingga alamat situsnya cukup
+ * ditulis di satu tempat.
+ */
 export const metadata: Metadata = {
-  metadataBase: new URL(SITE),
+  metadataBase: new URL(SITUS.url),
   title: {
-    default: "Skditumudah — Tryout & Latihan Soal SKD CPNS Online",
-    template: "%s | Skditumudah",
+    default: "Tryout SKD CPNS & Sekolah Kedinasan Online — Gratis 2 Sesi",
+    template: `%s | ${SITUS.merek}`,
   },
-  description:
-    "Tryout dan latihan soal SKD CPNS (TWK, TIU, TKP) online bergaya CAT BKN, plus artikel panduan pendaftaran CPNS, passing grade, dan kisi-kisi materi terbaru.",
-  applicationName: "Skditumudah",
+  description: SITUS.deskripsi,
+  applicationName: SITUS.nama,
   keywords: [
-    "tryout SKD CPNS",
-    "latihan soal CPNS",
-    "soal TWK TIU TKP",
-    "passing grade SKD CPNS",
-    "pendaftaran CPNS",
-    "skditumudah",
+    "tryout skd",
+    "tryout cpns",
+    "soal skd",
+    "latihan skd online",
+    "tryout sekolah kedinasan",
+    "twk tiu tkp",
+    "simulasi cat bkn",
   ],
-  alternates: { canonical: SITE },
+  alternates: { canonical: "/" },
   openGraph: {
     type: "website",
-    siteName: "Skditumudah",
-    url: SITE,
-    title: "Skditumudah — Tryout & Latihan Soal SKD CPNS Online",
-    description:
-      "Tryout dan latihan soal SKD CPNS (TWK, TIU, TKP) online bergaya CAT BKN, plus artikel panduan CPNS terbaru.",
     locale: "id_ID",
+    url: "/",
+    siteName: SITUS.nama,
+    title: "Tryout SKD CPNS & Sekolah Kedinasan Online — Gratis 2 Sesi",
+    description: SITUS.deskripsi,
+    images: [{ url: SITUS.gambar, width: 1200, height: 630, alt: SITUS.nama }],
   },
   twitter: {
-    card: "summary",
-    title: "Skditumudah — Tryout & Latihan Soal SKD CPNS Online",
-    description:
-      "Tryout dan latihan soal SKD CPNS (TWK, TIU, TKP) online bergaya CAT BKN.",
+    card: "summary_large_image",
+    title: "Tryout SKD CPNS & Sekolah Kedinasan Online",
+    description: SITUS.deskripsi,
+    images: [SITUS.gambar],
   },
   robots: {
     index: true,
