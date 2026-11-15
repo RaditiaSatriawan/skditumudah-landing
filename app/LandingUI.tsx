@@ -919,7 +919,7 @@ export default function LandingUI({ data }: { data: any }) {
                 "Tryout SKD CPNS",
                 "Simulasi CAT Kedinasan",
                 "Bank Soal Terupdate",
-                "Video Pembahasan",
+                "Mini Tryout & Tes Pauli",
               ].map((item) => (
                 <li key={item}>
                   <a
