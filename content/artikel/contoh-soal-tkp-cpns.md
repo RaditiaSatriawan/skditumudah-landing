@@ -3,6 +3,12 @@ title: "Contoh Soal TKP CPNS + Trik Menaikkan Skor ke 166+"
 description: "10 contoh soal TKP CPNS bergaya CAT + pembahasan skor tiap opsi. Pahami sistem penilaian 1–5 dan trik memilih jawaban paling ASN agar tembus 166+."
 date: 2026-09-01
 slug: contoh-soal-tkp-cpns
+updated: 2026-09-01
+kategori: Contoh Soal
+tags: contoh soal TKP, TKP CPNS, skor TKP, SKD CPNS, tips TKP
+keywords: contoh soal tkp cpns, soal tkp dan pembahasan, trik tkp, skor tkp 166, penilaian tkp 1-5
+image: photo-1606326608606-aa0b62935f2b
+imageAlt: Peserta menulis jawaban di lembar kertas
 ---
 
 # Contoh Soal TKP CPNS: 10 Latihan Bergaya CAT + Trik Menaikkan Skor ke 166+
@@ -251,15 +257,3 @@ Belum. Angka 166 adalah acuan KepmenPAN-RB 321/2024 untuk seleksi T.A. 2024. Pem
 
 **Bagaimana jika nilai SKD saya sama dengan peserta lain?**
 Sesuai PermenPAN-RB 6/2024, penentuan kelulusan diurutkan dari nilai TKP tertinggi, lalu TIU, lalu TWK. Jika semuanya sama persis, peserta yang bersangkutan tetap diloloskan mengikuti SKB.
-
-## Sumber Resmi (diverifikasi 1 September 2026)
-
-- Portal SSCASN BKN — sscasn.bkn.go.id (status seleksi: pendaftaran CPNS umum 2026 belum dibuka; portal menampilkan Seleksi Sekolah Kedinasan 2026)
-- Badan Kepegawaian Negara — bkn.go.id (himbauan waspada hoaks jadwal CPNS 2026)
-- Kementerian PANRB — menpan.go.id (berita resmi nilai ambang batas SKD)
-- Keputusan Menteri PANRB Nomor 321 Tahun 2024 tentang Nilai Ambang Batas SKD Pengadaan PNS T.A. 2024 (jumlah soal, pembobotan nilai, passing grade, kisi-kisi TKP)
-- Peraturan Menteri PANRB Nomor 6 Tahun 2024 (Pasal 23 syarat pelamar; Pasal 31 perangkingan SKD dan urutan tie-break TKP–TIU–TWK)
-
-*Catatan: Artikel ditulis 1 September 2026. Seluruh angka resmi (jadwal, passing grade, formasi) akan diperbarui mengikuti pengumuman resmi CPNS 2026. Dilarang memperbanyak sebagian atau seluruh isi tanpa izin.*
-
----
