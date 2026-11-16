@@ -1,8 +1,15 @@
 ---
 title: "Kisi-kisi Materi SKD CPNS 2026: TWK, TIU, TKP + Contoh Soal Singkat"
-description: "Pahami kisi-kisi materi SKD CPNS 2026: TWK, TIU, TKP lengkap dengan tipe soal, contoh singkat, dan bobot nilai. Status resmi per 1 September 2026. _(146 karak"
+seoTitle: "Kisi-kisi Materi SKD CPNS 2026: TWK, TIU, TKP"
+description: "Pahami kisi-kisi materi SKD CPNS 2026: TWK, TIU, dan TKP lengkap dengan tipe soal, contoh singkat, bobot nilai, dan strategi belajar per subtes."
 date: 2026-09-01
 slug: kisi-kisi-materi-skd-cpns-2026
+updated: 2026-09-01
+kategori: Panduan SKD
+tags: kisi-kisi SKD, materi SKD, TWK, TIU, TKP
+keywords: kisi-kisi skd cpns 2026, materi skd cpns, materi twk tiu tkp, bobot nilai skd
+image: photo-1532012197267-da84d127e765
+imageAlt: Tumpukan buku dengan satu buku terbuka untuk belajar materi SKD
 ---
 
 # Kisi-kisi Materi SKD CPNS 2026: TWK, TIU, TKP + Contoh Soal Singkat
@@ -168,21 +175,3 @@ Tidak ada jawaban yang mutlak salah — setiap opsi bernilai 1–5. Yang menentu
 
 **Di mana memantau pengumuman resmi CPNS 2026?**
 Hanya di kanal resmi: sscasn.bkn.go.id (pendaftaran dan timeline), bkn.go.id, dan menpan.go.id. Abaikan poster atau tautan dari sumber tidak resmi.
-
-## Sumber Resmi (verifikasi 1 September 2026)
-
-- Portal SSCASN BKN — sscasn.bkn.go.id (status seleksi dan timeline pengadaan)
-- BKN RI — bkn.go.id (pengumuman dan regulasi; termasuk halaman regulasi KepmenPAN-RB 321/2024)
-- Kementerian PANRB — menpan.go.id dan JDIH Kementerian PANRB (jdih.menpan.go.id: PermenPAN-RB 6/2024 dan KepmenPAN-RB 321/2024)
-- Keputusan Menteri PANRB Nomor 321 Tahun 2024 tentang Nilai Ambang Batas Seleksi Kompetensi Dasar Pengadaan PNS T.A 2024 (lampiran: kisi-kisi materi, jumlah soal, durasi, dan bobot penilaian)
-
----
-
-## Catatan Internal untuk QA/Publisher (hapus sebelum tayang)
-
-- **Status fakta:** seluruh angka resmi diverifikasi ulang 1 September 2026. Kisi-kisi, komposisi 110 soal, durasi 100 menit, dan bobot penilaian dikutip dari KepmenPAN-RB 321/2024 (tersedia di bkn.go.id dan jdih.menpan.go.id). Status "CPNS umum 2026 belum diumumkan" diverifikasi langsung dari halaman sscasn.bkn.go.id (menampilkan Seleksi Sekolah Kedinasan 2026, timeline belum tersedia) dan situs bkn.go.id (tidak ada pengumuman CPNS umum 2026).
-- **Angka 130 menit (disabilitas)** ditulis sebagai keterangan seleksi sebelumnya, bukan angka resmi 2026.
-- **Passing grade tidak diuraikan di artikel ini** (hanya dirujuk) karena menjadi pokok bahasan artikel passing grade terpisah; ambang batas 2026 belum diumumkan.
-- **Contoh soal** dalam artikel ini adalah contoh orisinal bergaya CAT untuk keperluan edukasi, bukan soal resmi BKN.
-
----

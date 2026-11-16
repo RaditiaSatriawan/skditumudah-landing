@@ -1,8 +1,15 @@
 ---
 title: "Passing Grade SKD CPNS: Nilai Ambang TWK, TIU, TKP per Jalur dan Target Skor Aman"
+seoTitle: "Passing Grade SKD CPNS: Nilai Ambang TWK, TIU, TKP"
 description: "Butuh angka pasti passing grade SKD CPNS? Simak nilai ambang batas TWK, TIU, TKP per jalur (umum, cumlaude, disabilitas, Papua) dan target skor aman."
 date: 2026-09-01
 slug: passing-grade-skd-cpns
+updated: 2026-09-01
+kategori: Panduan SKD
+tags: passing grade, nilai ambang batas, SKD CPNS, target skor SKD, CPNS 2026
+keywords: passing grade skd cpns, nilai ambang batas skd, passing grade cpns 2026, passing grade cumlaude, target skor skd
+image: photo-1534644107580-3a4dbd494a95
+imageAlt: Tangan memegang pensil saat mengerjakan soal
 ---
 
 # Passing Grade SKD CPNS: Nilai Ambang TWK, TIU, TKP per Jalur dan Target Skor Aman
@@ -114,14 +121,3 @@ Berdasarkan KepmenPAN-RB 321/2024, nilai SKD berlaku hingga satu periode seleksi
 
 **Apa bedanya ambang batas dan skor aman?**
 Ambang batas adalah syarat minimal resmi agar diurutkan; skor aman adalah target strategis agar posisi Anda aman di dalam kuota 3× formasi. Karena kelulusan ditentukan peringkat, skor aman biasanya jauh lebih tinggi dari ambang batas.
-
-## Sumber dan Referensi
-
-1. Keputusan Menteri PANRB Nomor 321 Tahun 2024 tentang Nilai Ambang Batas SKD Pengadaan PNS T.A. 2024 — [PDF resmi via bkn.go.id](https://www.bkn.go.id/storage/2024/08/2024kepmenpanrb321-Nilai-Ambang-Batas.pdf) dan [halaman regulasi BKN](https://www.bkn.go.id/regulasi/keputusan-menteri-pendayagunaan-aparatur-negara-dan-reformasi-birokrasi-republik-indonesia-nomor-321-tahun-2024/)
-2. Peraturan Menteri PANRB Nomor 6 Tahun 2024 tentang Pengadaan Pegawai ASN — [PDF resmi via bkn.go.id](https://www.bkn.go.id/storage/2024/08/2024permenpanrb-Pengadaan-CASN-.pdf)
-3. BKN: "Poster Pembukaan CPNS 2026 yang Beredar Dipastikan HOAKS" (Juni 2026) — [bkn.go.id](https://www.bkn.go.id/karo-komlik-bkn-wisudo-putro-nugroho-poster-pembukaan-cpns-2026-yang-beredar-dipastikan-hoaks/)
-4. Portal resmi pendaftaran: [sscasn.bkn.go.id](https://sscasn.bkn.go.id)
-
-*Artikel ini disusun 1 September 2026. Seluruh angka resmi diverifikasi ulang pada tanggal tersebut dari dokumen regulasi di bkn.go.id. Pantau pengumuman resmi untuk informasi terbaru.*
-
----

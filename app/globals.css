@@ -104,6 +104,8 @@ body {
 }
 .article blockquote p { margin: 0; }
 .article table {
+  display: block;
+  overflow-x: auto;
   width: 100%;
   border-collapse: collapse;
   margin: 1.25rem 0;

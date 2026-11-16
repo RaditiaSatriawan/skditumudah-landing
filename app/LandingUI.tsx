@@ -138,7 +138,7 @@ export default function LandingUI({ data }: { data: any }) {
               </a>
             ))}
             <a
-              href="https://app.skditumudah.com/blog"
+              href="/artikel/"
               className="text-on-secondary-container hover:text-primary font-medium transition-colors duration-200"
             >
               Artikel
@@ -194,7 +194,7 @@ export default function LandingUI({ data }: { data: any }) {
               </a>
             ))}
             <a
-              href="https://app.skditumudah.com/blog"
+              href="/artikel/"
               className="text-on-secondary-container hover:text-primary font-medium py-3 px-3 rounded-lg hover:bg-surface-container-low transition-colors"
             >
               Artikel
@@ -742,7 +742,7 @@ export default function LandingUI({ data }: { data: any }) {
                 </p>
               </div>
               <a
-                href="https://app.skditumudah.com/blog"
+                href="/artikel/"
                 className="hidden md:flex items-center gap-2 px-5 py-2.5 border-2 border-[#00236f] text-[#00236f] rounded-xl font-bold text-sm hover:bg-blue-50 transition-colors"
               >
                 Semua Artikel
@@ -753,7 +753,7 @@ export default function LandingUI({ data }: { data: any }) {
               {latestArtikels.map((a: any) => (
                 <a
                   key={a.slug}
-                  href={`/blog/${a.slug}`}
+                  href={`/${a.slug}/`}
                   className="bg-white rounded-2xl overflow-hidden shadow-sm border border-gray-100 hover:shadow-lg hover:-translate-y-1 transition-all duration-300 flex flex-col group"
                 >
                   <div className="aspect-video bg-[#dce1ff] overflow-hidden relative">
@@ -761,6 +761,10 @@ export default function LandingUI({ data }: { data: any }) {
                       <img
                         src={a.thumbnail}
                         alt={a.judul}
+                        width={640}
+                        height={360}
+                        loading="lazy"
+                        decoding="async"
                         className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                       />
                     ) : (
@@ -796,7 +800,7 @@ export default function LandingUI({ data }: { data: any }) {
             </div>
             <div className="text-center mt-8 md:hidden">
               <a
-                href="https://app.skditumudah.com/blog"
+                href="/artikel/"
                 className="inline-flex items-center gap-2 px-6 py-3 border-2 border-[#00236f] text-[#00236f] rounded-xl font-bold text-sm hover:bg-blue-50 transition-colors"
               >
                 Semua Artikel

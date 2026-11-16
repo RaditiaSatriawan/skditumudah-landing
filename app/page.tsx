@@ -1,5 +1,6 @@
 import LandingUI from "./LandingUI";
 import { KETERANGAN_SITUS, sandikanJsonLd } from "./seo";
+import { fotoUrl, getAllArticles } from "@/lib/articles";
 
 
 export default async function Page() {
@@ -45,6 +46,21 @@ export default async function Page() {
   } catch (error) {
     console.error("Gagal menarik data dari VPS:", error);
   }
+
+  // Artikel dilayani halaman ini sendiri (statis dan terindeks), bukan blog di aplikasi.
+  landingData = {
+    ...landingData,
+    latestArtikels: getAllArticles()
+      .slice(0, 3)
+      .map((a) => ({
+        slug: a.slug,
+        judul: a.title,
+        ringkasan: a.description,
+        thumbnail: fotoUrl(a.image, 640, 360),
+        kategori: a.kategori,
+        publishedAt: a.updated,
+      })) as never[],
+  };
 
   return (
     <>

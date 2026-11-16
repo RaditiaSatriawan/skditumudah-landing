@@ -3,6 +3,12 @@ title: "Syarat & Dokumen Pendaftaran CPNS 2026: Checklist Lengkap"
 description: "Syarat dan dokumen pendaftaran CPNS 2026: usia, pendidikan, KTP, ijazah, e-meterai, plus checklist cetak. Status resmi terbaru per September 2026."
 date: 2026-09-01
 slug: syarat-dokumen-pendaftaran-cpns-2026
+updated: 2026-09-01
+kategori: Panduan CPNS
+tags: syarat CPNS, dokumen CPNS, CPNS 2026, SSCASN, pendaftaran CPNS
+keywords: syarat pendaftaran cpns 2026, dokumen cpns 2026, berkas cpns, checklist dokumen cpns, e-meterai cpns
+image: photo-1588702547919-26089e690ecc
+imageAlt: Laptop di meja untuk menyiapkan dokumen pendaftaran CPNS
 ---
 
 # Syarat & Dokumen Pendaftaran CPNS 2026: Checklist Lengkap
@@ -154,9 +160,3 @@ Tidak ada. Seluruh proses pendaftaran gratis. Waspadai pungutan, "jasa calo", at
 Syarat umum di atas adalah acuan regulasi yang berlaku saat ini (PermenPAN-RB 6/2024). Ketentuan final seleksi 2026 — termasuk jadwal, formasi, batas usia, dan dokumen — mengikuti pengumuman resmi yang akan terbit. **Selalu cek ulang sebelum mendaftar.**
 
 **Checklist Anda sudah lengkap?** Uji kesiapan seleksi dengan [try out SKD CPNS online di Skditumudah](https://www.skditumudah.com/tryout), dan pantau terus [jadwal pendaftaran CPNS 2026](https://www.skditumudah.com/jadwal-pendaftaran-cpns-2026/) agar tidak ketinggalan pengumuman resmi BKN.
-
----
-
-*Sumber resmi: [SSCASN BKN](https://sscasn.bkn.go.id) (dicek 1 September 2026), [BKN](https://www.bkn.go.id), [KemenPAN-RB](https://www.menpan.go.id), dan PermenPAN-RB Nomor 6 Tahun 2024 tentang Pengadaan Pegawai ASN (JDIH KemenPAN-RB).*
-
----

@@ -1,8 +1,15 @@
 ---
-title: "Jadwal Pendaftaran CPNS 2026: Status Resmi Terbaru BKN & Fakta Anti-Hoaks"
-description: "Cek jadwal pendaftaran CPNS 2026 terbaru: sampai 1 September 2026 BKN belum buka pendaftaran. Waspada hoaks jadwal palsu, pantau SSCASN & BKN."
+title: "Jadwal Pendaftaran CPNS 2026: Kabar Terbaru BKN November 2026 dan Fakta Anti-Hoaks"
+seoTitle: "Jadwal Pendaftaran CPNS 2026: Kabar Terbaru BKN"
+description: "Kabar terbaru CPNS 2026: BKN rencanakan pembukaan pekan keempat November 2026, perkiraan 150.000–158.000 formasi, akun SSCASN sudah bisa dibuat."
 date: 2026-09-01
 slug: jadwal-pendaftaran-cpns-2026
+updated: 2026-11-16
+kategori: Berita CPNS
+tags: CPNS 2026, jadwal CPNS, SSCASN, formasi CPNS, hoaks CPNS
+keywords: jadwal pendaftaran cpns 2026, kapan cpns 2026 dibuka, formasi cpns 2026, sscasn 2026, pendaftaran cpns november 2026
+image: photo-1513128034602-7814ccaddd4e
+imageAlt: Buku catatan dan pena untuk mencatat jadwal pendaftaran CPNS
 ---
 
 # Jadwal Pendaftaran CPNS 2026: Status Resmi Terbaru BKN & Fakta Anti-Hoaks
@@ -11,6 +18,8 @@ slug: jadwal-pendaftaran-cpns-2026
 ---
 
 Jadwal pendaftaran CPNS 2026 sampai saat ini belum diumumkan secara resmi oleh pemerintah. Per 1 September 2026, Badan Kepegawaian Negara (BKN) menegaskan pendaftaran CPNS belum dibuka dan mengingatkan masyarakat agar waspada terhadap poster, jadwal, maupun tautan pendaftaran palsu yang beredar di media sosial. Informasi resmi hanya keluar melalui kanal pemerintah: portal SSCASN (sscasn.bkn.go.id), situs BKN (bkn.go.id), dan Kementerian PANRB (menpan.go.id). Artikel ini merangkum status terbaru, jadwal yang benar-benar resmi, dan panduan menghindari hoaks — dan akan diperbarui begitu ada pengumuman baru dari pemerintah.
+
+> **Pembaruan 16 November 2026:** BKN menyampaikan bahwa pendaftaran CPNS 2026 direncanakan dibuka pada **pekan keempat November 2026**, dengan rincian formasi dan jadwal lengkap dijadwalkan diumumkan sekitar 20–23 November. Menteri PANRB memperkirakan kebutuhan sekitar **150.000–158.000 formasi**, angka yang masih bisa berubah setelah usulan instansi final. **Pembuatan akun SSCASN sudah dapat dilakukan** sejak sekarang di sscasn.bkn.go.id. Panduan langkah demi langkahnya ada di artikel [cara daftar CPNS 2026 di SSCASN](/cara-daftar-cpns-2026-di-sscasn/).
 
 
 ---
@@ -123,31 +132,4 @@ Tidak. Sekolah kedinasan punya jadwal dan formasi tersendiri (pendaftaran sudah 
 
 ## Kesimpulan
 
-Status per 1 September 2026: **jadwal pendaftaran CPNS 2026 belum diumumkan resmi** dan pendaftaran belum dibuka. Yang sudah berjalan hanyalah seleksi Sekolah Kedinasan 2026. Jangan percaya poster, link, atau video yang mengklaim CPNS sudah dibuka — verifikasi selalu ke SSCASN, BKN, dan Kementerian PANRB. Artikel ini akan diperbarui berkala; bookmark halaman ini dan pantau kanal resmi agar tidak ketinggalan pengumuman.
-
----
-
-## Sumber (diakses 1 September 2026)
-
-1. Portal SSCASN — https://sscasn.bkn.go.id (pengecekan langsung: menampilkan Seleksi Sekolah Kedinasan 2026, belum ada pembukaan CPNS umum)
-2. BKN — https://www.bkn.go.id (pengecekan langsung homepage; belum ada pengumuman jadwal CPNS umum 2026)
-3. BKN — "Kepala BKN: Pantau Jadwalnya, Pendaftaran Seleksi Sekolah Kedinasan Tahun 2026 Dimulai 18 Agustus" — https://www.bkn.go.id/kepala-bkn-pantau-jadwalnya-pendaftaran-seleksi-sekolah-kedinasan-tahun-2026-dimulai-18-agustus/
-4. Surat Kepala BKN No. 5249/B-KS.04.01/SD/K/2026 (12 Agustus 2026) — jadwal resmi Sekolah Kedinasan 2026
-5. Kementerian PANRB — pengumuman 4.770 kebutuhan CPNS Sekolah Kedinasan 2026 (14 Agustus 2026)
-6. Tirto.id — "Apa Kata BKN Terkait Ramainya Info Rekrutmen CPNS Juni 2026?" (klarifikasi BKN 4 Juni 2026) — https://tirto.id/apa-kata-bkn-terkait-ramainya-info-rekrutmen-cpns-juni-2026-hxvj
-7. Katadata — "Apa Benar CPNS 2026 Buka Juni? Ini Faktanya Menurut BKN"
-8. Detik.com — "Pendaftaran CPNS Sudah Dibuka? Cek Faktanya di Sini" (8 Juni 2026) — https://www.detik.com/sumut/berita/d-8523010/
-9. MetroTV News — "CPNS 2026 Kapan Dibuka? Simak Informasi Terbaru dari BKN" (klarifikasi 21 Juli 2026)
-10. Suara.com — "CPNS 2026 Lulusan SMA Kapan Dibuka? Cek Update Jadwal Pendaftaran" (25 Agustus 2026)
-11. Medcom.id — "Kapan Pendaftaran CPNS 2026?" (24 Agustus 2026)
-12. Kompas.com — "CPNS Sekolah Kedinasan 2026 Dibuka 18 Agustus, Ini Jadwal Resminya" (15 Agustus 2026) — https://money.kompas.com/read/2026/08/15/081044826/
-13. Liputan6.com & Kompas.com Cek Fakta — Deretan hoaks CPNS 2026, termasuk video AI Menteri PANRB (cek fakta, Agustus 2026); penandaan hoaks juga via akun resmi X KemenPANRB (@kemenpanrb)
-
----
-
-## SEO Checklist
-
-- **Alt text**: 1 placeholder gambar di paragraf pembuka — **wajib diganti gambar asli sebelum publish** (catatan QA, tahap Publisher)
-- **Format**: "status per 1 September 2026" yang bisa di-update berkala
-
----
+Status per 16 November 2026: **pendaftaran CPNS 2026 direncanakan dibuka pada pekan keempat November 2026**, dengan rincian formasi dan jadwal lengkap yang akan diumumkan resmi melalui portal SSCASN BKN. Akun SSCASN sudah bisa dibuat dari sekarang, jadi manfaatkan waktu ini untuk menyiapkan dokumen dan memantapkan persiapan SKD. Jangan percaya poster, tautan, atau video yang tidak berasal dari kanal resmi. Selalu verifikasi ke SSCASN, BKN, dan Kementerian PANRB.

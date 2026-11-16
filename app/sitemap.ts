@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 import { SITUS } from "./seo";
-import { getAllArticleSlugs } from "@/lib/articles";
+import { getAllArticles } from "@/lib/articles";
 
 /**
  * Peta situs halaman muka.
@@ -20,9 +20,10 @@ import { getAllArticleSlugs } from "@/lib/articles";
 const DIUBAH = new Date("2026-09-01");
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const artikel = getAllArticleSlugs().map((slug) => ({
-    url: `${SITUS.url}/${slug}/`,
-    lastModified: DIUBAH,
+  // Tanggal tiap artikel diambil dari kolom updated di berkasnya sendiri, jadi hanya berubah saat isinya berubah.
+  const artikel = getAllArticles().map((a) => ({
+    url: `${SITUS.url}/${a.slug}/`,
+    lastModified: a.updated ? new Date(a.updated) : DIUBAH,
     changeFrequency: "weekly" as const,
     priority: 0.8,
   }));
@@ -33,6 +34,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: DIUBAH,
       changeFrequency: "daily" as const,
       priority: 1,
+    },
+    {
+      url: `${SITUS.url}/artikel/`,
+      lastModified: artikel.reduce((t, a) => (a.lastModified > t ? a.lastModified : t), DIUBAH),
+      changeFrequency: "weekly" as const,
+      priority: 0.9,
     },
     ...artikel,
   ];
