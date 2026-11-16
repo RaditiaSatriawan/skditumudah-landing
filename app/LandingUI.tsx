@@ -87,6 +87,12 @@ export default function LandingUI({ data }: { data: any }) {
               </a>
             ))}
             <a
+              href="/tryout-skd-cpns/"
+              className="text-on-secondary-container hover:text-primary font-medium transition-colors duration-200"
+            >
+              Tryout CPNS
+            </a>
+            <a
               href="/artikel/"
               className="text-on-secondary-container hover:text-primary font-medium transition-colors duration-200"
             >
@@ -145,6 +151,18 @@ export default function LandingUI({ data }: { data: any }) {
                 {label}
               </a>
             ))}
+            <a
+              href="/tryout-skd-cpns/"
+              className="text-on-secondary-container hover:text-primary font-medium py-3 px-3 rounded-lg hover:bg-surface-container-low transition-colors"
+            >
+              Tryout SKD CPNS
+            </a>
+            <a
+              href="/tryout-skd-kedinasan/"
+              className="text-on-secondary-container hover:text-primary font-medium py-3 px-3 rounded-lg hover:bg-surface-container-low transition-colors"
+            >
+              Tryout SKD Kedinasan
+            </a>
             <a
               href="/artikel/"
               className="text-on-secondary-container hover:text-primary font-medium py-3 px-3 rounded-lg hover:bg-surface-container-low transition-colors"
@@ -798,16 +816,6 @@ export default function LandingUI({ data }: { data: any }) {
                     <p className="text-gray-500 text-sm leading-relaxed line-clamp-2 flex-1">
                       {a.ringkasan}
                     </p>
-                    {a.publishedAt && (
-                      <p className="text-xs text-gray-400 mt-3">
-                        {new Date(a.publishedAt).toLocaleDateString("id-ID", {
-                          day: "numeric",
-                          month: "short",
-                          year: "numeric",
-                          timeZone: "Asia/Jakarta",
-                        })}
-                      </p>
-                    )}
                   </div>
                 </a>
               ))}
@@ -953,8 +961,8 @@ export default function LandingUI({ data }: { data: any }) {
             <ul className="space-y-4">
               {(
                 [
-                  ["Tryout SKD Terlengkap", "#fitur"],
-                  ["Simulasi CAT Kedinasan", "#isi-aplikasi"],
+                  ["Tryout SKD CPNS", "/tryout-skd-cpns/"],
+                  ["Tryout SKD Kedinasan", "/tryout-skd-kedinasan/"],
                   ["Bank Soal Terupdate", "#statistik"],
                   ["Mini Tryout & Tes Koran", "#tes-koran"],
                 ] as [string, string][]

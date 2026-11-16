@@ -37,7 +37,6 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       url,
       type: "article",
       locale: "id_ID",
-      publishedTime: article.date || undefined,
       modifiedTime: article.updated || undefined,
       section: article.kategori,
       tags: article.tags,
@@ -53,8 +52,6 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   };
 }
 
-const tanggal = (iso: string) =>
-  iso ? new Date(iso).toLocaleDateString("id-ID", { day: "numeric", month: "long", year: "numeric", timeZone: "Asia/Jakarta" }) : "";
 
 export default async function ArticlePage({ params }: PageProps) {
   const { slug } = await params;
@@ -62,6 +59,8 @@ export default async function ArticlePage({ params }: PageProps) {
   if (!article) notFound();
   const url = `${SITE}/${article.slug}/`;
   const terkait = getRelated(article);
+  // Artikel kedinasan diarahkan ke halaman tryout kedinasan, selebihnya ke tryout CPNS.
+  const kedinasan = /kedinasan|stan|stis|ipdn|stmkg|polte/i.test(`${article.kategori} ${article.slug}`);
 
   const jsonLd: object[] = [
     {
@@ -70,7 +69,6 @@ export default async function ArticlePage({ params }: PageProps) {
       headline: article.title,
       description: article.description,
       image: [fotoUrl(article.image, 1200, 630), fotoUrl(article.image, 1200, 1200)],
-      datePublished: article.date,
       dateModified: article.updated,
       inLanguage: "id-ID",
       articleSection: article.kategori,
@@ -154,7 +152,7 @@ export default async function ArticlePage({ params }: PageProps) {
           <h1 className="text-[1.75rem] font-extrabold leading-tight text-[#00236f] sm:text-4xl">{article.title}</h1>
           <p className="mt-3 text-base leading-relaxed text-on-surface-variant">{article.description}</p>
           <p className="mt-4 text-sm text-on-surface-variant">
-            Tim Akademik Skditumudah · {tanggal(article.updated)} · {article.menitBaca} menit baca
+            Tim Akademik Skditumudah · {article.menitBaca} menit baca
           </p>
         </header>
 
@@ -203,12 +201,20 @@ export default async function ArticlePage({ params }: PageProps) {
             Kerjakan tryout SKD dengan format CAT BKN: 110 soal, 100 menit, penilaian TWK, TIU, dan TKP seperti aslinya,
             lengkap dengan pembahasan dan rapor kelemahan per subtes. Dua sesi pertama gratis.
           </p>
-          <a
-            href={DAFTAR}
-            className="mt-5 inline-block rounded-full bg-[#ffb95f] px-6 py-3 text-sm font-bold text-[#00236f] hover:opacity-90"
-          >
-            Mulai Tryout Gratis
-          </a>
+          <div className="mt-5 flex flex-wrap gap-3">
+            <a
+              href={DAFTAR}
+              className="inline-block rounded-full bg-[#ffb95f] px-6 py-3 text-sm font-bold text-[#00236f] hover:opacity-90"
+            >
+              Mulai Tryout Gratis
+            </a>
+            <Link
+              href={kedinasan ? "/tryout-skd-kedinasan/" : "/tryout-skd-cpns/"}
+              className="inline-block rounded-full border border-white/30 px-6 py-3 text-sm font-bold text-white hover:bg-white/10"
+            >
+              {kedinasan ? "Tryout SKD Kedinasan" : "Tryout SKD CPNS"}
+            </Link>
+          </div>
         </aside>
 
         {terkait.length > 0 && (

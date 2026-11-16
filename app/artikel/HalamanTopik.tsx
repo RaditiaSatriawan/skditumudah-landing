@@ -12,8 +12,6 @@ type Props = {
   url: string;
 };
 
-const tanggal = (iso: string) =>
-  iso ? new Date(iso).toLocaleDateString("id-ID", { day: "numeric", month: "short", year: "numeric", timeZone: "Asia/Jakarta" }) : "";
 
 /** Halaman daftar artikel per kategori atau tag: dibuat statis, dengan data terstruktur dan tautan ke topik lain. */
 export default function HalamanTopik({ jenis, topik, judul, pengantar, url }: Props) {
@@ -118,7 +116,7 @@ export default function HalamanTopik({ jenis, topik, judul, pengantar, url }: Pr
                   <h2 className="mt-2 text-lg font-extrabold leading-snug text-[#00236f] group-hover:text-[#1e3a8a]">{a.title}</h2>
                   <p className="mt-2 line-clamp-3 text-sm leading-relaxed text-on-surface-variant">{a.description}</p>
                   <p className="mt-auto pt-4 text-xs text-on-surface-variant">
-                    {tanggal(a.updated)} · {a.menitBaca} menit baca
+                    {a.menitBaca} menit baca
                   </p>
                 </div>
               </Link>

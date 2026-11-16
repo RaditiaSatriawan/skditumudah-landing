@@ -108,7 +108,7 @@ Di sela tryout lengkap, isi hari-hari lain dengan latihan per materi. Anda bisa 
 
 ## Cara Kerja Tryout SKD di Skditumudah
 
-Skditumudah menyediakan tryout SKD berbasis web yang dirancang mengikuti format CAT BKN. Berikut yang bisa Anda dapatkan, sesuai fitur yang tersedia saat artikel ini ditulis:
+Skditumudah menyediakan tryout SKD berbasis web yang dirancang mengikuti format CAT BKN. Berikut yang bisa Anda dapatkan, sesuai fitur yang tersedia saat ini:
 
 - **Dua sesi tryout penuh gratis.** Cukup daftar akun, tanpa kartu kredit.
 - **Format ujian penuh.** 110 soal, 100 menit, dengan navigator nomor soal, tanda ragu, dan timer. Penilaian TWK, TIU, dan TKP mengikuti aturan CAT BKN, termasuk bobot 1–5 untuk TKP.

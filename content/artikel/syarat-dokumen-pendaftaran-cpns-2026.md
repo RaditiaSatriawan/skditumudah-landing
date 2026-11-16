@@ -1,9 +1,9 @@
 ---
 title: "Syarat & Dokumen Pendaftaran CPNS 2026: Checklist Lengkap"
-description: "Syarat dan dokumen pendaftaran CPNS 2026: usia, pendidikan, KTP, ijazah, e-meterai, plus checklist cetak. Status resmi terbaru per September 2026."
+description: "Syarat dan dokumen pendaftaran CPNS 2026: usia, pendidikan, KTP, ijazah, e-meterai, plus checklist cetak. Akun SSCASN 2026 sudah bisa dibuat."
 date: 2026-09-01
 slug: syarat-dokumen-pendaftaran-cpns-2026
-updated: 2026-09-01
+updated: 2026-11-16
 kategori: Panduan CPNS
 tags: syarat CPNS, dokumen CPNS, CPNS 2026, SSCASN, pendaftaran CPNS
 keywords: syarat pendaftaran cpns 2026, dokumen cpns 2026, berkas cpns, checklist dokumen cpns, e-meterai cpns
@@ -16,22 +16,25 @@ imageAlt: Laptop di meja untuk menyiapkan dokumen pendaftaran CPNS
 
 ---
 
-Mencari **syarat dan dokumen pendaftaran CPNS 2026** yang benar dan terbaru? Anda berada di halaman yang tepat. Artikel ini merangkum syarat umum pelamar, daftar dokumen yang wajib disiapkan, hingga checklist cetak yang bisa Anda gunakan sebagai panduan — semuanya bersumber dari regulasi yang berlaku dan status resmi pemerintah per 1 September 2026. Catatan penting di awal: sampai artikel ini ditulis, **pemerintah belum mengumumkan jadwal resmi, formasi, maupun pembukaan pendaftaran CPNS jalur umum 2026**. Oleh karena itu, seluruh ketentuan di bawah ini disusun berdasarkan acuan regulasi yang berlaku (PermenPAN-RB Nomor 6 Tahun 2024) dan wajib Anda cek ulang saat pendaftaran resmi dibuka.
+Mencari **syarat dan dokumen pendaftaran CPNS 2026** yang benar dan terbaru? Anda berada di halaman yang tepat. Artikel ini merangkum syarat umum pelamar, daftar dokumen yang wajib disiapkan, hingga checklist cetak yang bisa Anda gunakan sebagai panduan — semuanya bersumber dari regulasi yang berlaku dan informasi resmi terbaru. Catatan penting di awal: per pertengahan November 2026, pembuatan akun SSCASN untuk CPNS 2026 sudah dibuka, tetapi **pemerintah belum mengumumkan jadwal resmi, formasi, maupun pembukaan pendaftaran formasi CPNS 2026**. Oleh karena itu, seluruh ketentuan di bawah ini disusun berdasarkan acuan regulasi yang berlaku (PermenPAN-RB Nomor 6 Tahun 2024) dan wajib Anda cek ulang saat pendaftaran resmi dibuka.
 
-## Status Resmi CPNS 2026 per 1 September 2026
+## Status Terbaru CPNS 2026
 
-Sebelum membahas syarat dan dokumen, ada baiknya kita pastikan dulu status seleksi CPNS 2026:
+Sebelum membahas syarat dan dokumen, ada baiknya kita pastikan dulu status seleksi CPNS 2026 per pertengahan November 2026:
 
-- **Belum ada pengumuman resmi** jadwal pendaftaran, jumlah formasi, maupun pembukaan pendaftaran CPNS jalur umum 2026.
-- Portal SSCASN (sscasn.bkn.go.id) saat ini hanya menampilkan seleksi **Sekolah Kedinasan 2026**, dengan keterangan *"data tahapan belum tersedia"* pada timeline pengadaan CPNS.
-- Badan Kepegawaian Negara (BKN) telah berulang kali menegaskan bahwa jadwal CPNS 2026 **belum ditetapkan**, dan membantah poster maupun tautan pendaftaran yang beredar di media sosial sebagai **informasi palsu**.
+- **Pembuatan akun SSCASN sudah dibuka.** Menurut Kompas.com (16 November 2026) dan Poskota (14 November 2026), BKN mengumumkan lewat Instagram resminya, @bkngoidofficial, bahwa akun SSCASN untuk CPNS 2026 bisa dibuat sejak 14 November 2026. Membuat akun belum berarti mendaftar formasi; pemilihan formasi dan unggah dokumen baru bisa dilakukan setelah pendaftaran resmi dibuka.
+- **Pengumuman seleksi masih berupa target.** Poskota mengutip Kepala BKN Zudan Arif Fakrulloh yang memperkirakan formasi dan tahapan diumumkan sekitar 20–23 November 2026. Sampai pengumuman resmi terbit, tanggal ini belum bisa dipastikan.
+- **Jumlah formasi belum final.** Menteri PANRB Rini Widyantini disebut memperkirakan kebutuhan sekitar 150.000 formasi, sementara Poskota juga mengutip Dirjen Anggaran Kemenkeu yang menyebut sekitar 158.000. Keduanya masih dalam penghitungan.
+- **Timeline resmi belum tampil.** Saat kami cek pada pertengahan November 2026, timeline pengadaan di portal SSCASN (sscasn.bkn.go.id) masih bertuliskan *"Data tahapan belum tersedia"*.
+
+Rangkuman perkembangan terbarunya kami kumpulkan di [CPNS 2026 dibuka: info terbaru](/cpns-2026-dibuka-info-terbaru/).
 
 Artinya, jadwal apa pun yang beredar di media sosial, grup pesan, atau situs non-resmi **tidak bisa dijadikan acuan**. Satu-satunya kanal pendaftaran yang sah adalah portal resmi SSCASN BKN. Informasi resmi hanya disampaikan melalui sscasn.bkn.go.id, bkn.go.id, menpan.go.id, dan kanal resmi instansi pemerintah terkait.
 
 
 ## Syarat Umum Pendaftaran CPNS 2026 (Acuan PermenPAN-RB 6/2024)
 
-Syarat umum berikut mengacu pada **Pasal 23 Peraturan Menteri PAN-RB Nomor 6 Tahun 2024 tentang Pengadaan Pegawai ASN**. Regulasi ini masih menjadi acuan karena sampai artikel ini ditulis, pemerintah belum menerbitkan regulasi baru untuk seleksi 2026.
+Syarat umum berikut mengacu pada **Pasal 23 Peraturan Menteri PAN-RB Nomor 6 Tahun 2024 tentang Pengadaan Pegawai ASN**. Regulasi ini masih menjadi acuan karena hingga pengumuman resmi terbaru, pemerintah belum menerbitkan regulasi baru untuk seleksi 2026.
 
 | No | Syarat Umum | Keterangan |
 |---|---|---|
@@ -123,7 +126,7 @@ Saat pendaftaran resmi dibuka, alurnya secara umum sebagai berikut:
 
 ## Jangan Tertukar: CPNS Umum vs Sekolah Kedinasan 2026
 
-Portal SSCASN saat ini sedang melayani seleksi **Sekolah Kedinasan 2026** — dan ini sering disalahartikan. Seleksi Sekolah Kedinasan adalah jalur penerimaan taruna/praja di sekolah kedinasan (misalnya Poltekim, STMKG, dan sejenisnya), **bukan CPNS umum**. Jadwal dan ketentuannya berbeda. Jadi, jika Anda menunggu CPNS umum, jangan jadikan jadwal Sekolah Kedinasan sebagai patokan.
+Portal SSCASN juga melayani seleksi **Sekolah Kedinasan 2026**, yang tahapannya sudah berjalan sejak Agustus 2026 — dan ini sering disalahartikan. Seleksi Sekolah Kedinasan adalah jalur penerimaan taruna/praja di sekolah kedinasan (misalnya Poltekim, STMKG, dan sejenisnya), **bukan CPNS umum**. Jadwal dan ketentuannya berbeda. Jadi, jika Anda menunggu CPNS umum, jangan jadikan jadwal Sekolah Kedinasan sebagai patokan.
 
 ## Waspada Penipuan Berkedok CPNS 2026
 
@@ -143,20 +146,20 @@ Sambil menunggu pengumuman resmi, ini yang bisa Anda kerjakan hari ini:
 3. **Perbarui dokumen** — misalnya pas foto terbaru atau SKCK jika instansi tujuan memintanya.
 4. **Latihan soal SKD** — tahapan seleksi umumnya diawali Seleksi Kompetensi Dasar (SKD) dengan sistem CAT. Nilai ambang (passing grade) 2026 belum diumumkan, tetapi latihan sejak dini jelas lebih baik daripada menunggu pengumuman.
 
-Nah, untuk poin terakhir, Anda bisa mulai dari sekarang: [coba tryout SKD CPNS gratis di Skditumudah](https://app.skditumudah.com/daftar) — platform latihan SKD dengan simulasi CAT yang mirip ujian sesungguhnya, lengkap dengan bank soal terbaru. Semakin awal berlatih, semakin siap Anda saat pendaftaran dan jadwal seleksi resmi diumumkan. Kunjungi juga [skditumudah.com](/) untuk info lengkapnya.
+Nah, untuk poin terakhir, Anda bisa mulai dari sekarang: [coba tryout SKD CPNS gratis di Skditumudah](https://app.skditumudah.com/daftar) — platform latihan SKD dengan simulasi CAT yang mirip ujian sesungguhnya, lengkap dengan bank soal terbaru. Format dan fiturnya bisa Anda lihat di halaman [tryout SKD CPNS](/tryout-skd-cpns/). Semakin awal berlatih, semakin siap Anda saat pendaftaran dan jadwal seleksi resmi diumumkan. Kunjungi juga [skditumudah.com](/) untuk info lengkapnya.
 
-## FAQ Singkat
+## Pertanyaan yang Sering Diajukan
 
-**Apakah CPNS 2026 sudah dibuka?**
-Belum. Per 1 September 2026, pemerintah belum mengumumkan pembukaan pendaftaran CPNS jalur umum 2026. Pantau sscasn.bkn.go.id dan kanal resmi BKN/MenPAN-RB.
+### Apakah CPNS 2026 sudah dibuka?
+Belum sepenuhnya. Per pertengahan November 2026, yang sudah dibuka baru pembuatan akun SSCASN (sejak 14 November 2026, menurut pemberitaan media yang mengutip BKN). Pendaftaran formasi menunggu pengumuman resmi. Pantau sscasn.bkn.go.id dan kanal resmi BKN/MenPAN-RB.
 
-**Di mana tempat mendaftar CPNS 2026?**
+### Di mana tempat mendaftar CPNS 2026?
 Hanya di portal resmi SSCASN BKN: [sscasn.bkn.go.id](https://sscasn.bkn.go.id). Waspadai situs atau tautan lain yang mengaku sebagai jalur pendaftaran.
 
-**Apakah ada biaya pendaftaran CPNS?**
+### Apakah ada biaya pendaftaran CPNS?
 Tidak ada. Seluruh proses pendaftaran gratis. Waspadai pungutan, "jasa calo", atau iming-iming kelulusan.
 
-**Apakah syarat di artikel ini sudah pasti berlaku untuk 2026?**
+### Apakah syarat di artikel ini sudah pasti berlaku untuk 2026?
 Syarat umum di atas adalah acuan regulasi yang berlaku saat ini (PermenPAN-RB 6/2024). Ketentuan final seleksi 2026 — termasuk jadwal, formasi, batas usia, dan dokumen — mengikuti pengumuman resmi yang akan terbit. **Selalu cek ulang sebelum mendaftar.**
 
 **Checklist Anda sudah lengkap?** Uji kesiapan seleksi dengan [try out SKD CPNS online di Skditumudah](https://app.skditumudah.com/daftar), dan pantau terus [jadwal pendaftaran CPNS 2026](/jadwal-pendaftaran-cpns-2026/) agar tidak ketinggalan pengumuman resmi BKN.

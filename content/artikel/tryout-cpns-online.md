@@ -18,7 +18,7 @@ Artikel ini menjawab ketiganya, sekaligus memberi rencana tryout enam pekan yang
 
 ## Status Seleksi CPNS 2026 per November
 
-Sebelum menyusun jadwal latihan, pahami dulu posisinya. Per 16 November 2026, berbagai media melaporkan bahwa pembuatan akun di portal SSCASN sudah dibuka sejak 14 November 2026. Kepala BKN juga disebut memperkirakan pengumuman seleksi sekitar akhir November. Namun, jadwal resmi, jumlah formasi final, dan aturan ambang batas SKD untuk tahun anggaran 2026 **belum diumumkan secara resmi** saat artikel ini ditulis.
+Sebelum menyusun jadwal latihan, pahami dulu posisinya. Per 16 November 2026, berbagai media melaporkan bahwa pembuatan akun di portal SSCASN sudah dibuka sejak 14 November 2026. Kepala BKN juga disebut memperkirakan pengumuman seleksi sekitar akhir November. Namun, jadwal resmi, jumlah formasi final, dan aturan ambang batas SKD untuk tahun anggaran 2026 **belum diumumkan secara resmi** hingga pengumuman resmi terbaru.
 
 Artinya, Anda punya jendela waktu yang berharga. Pantau hanya kanal resmi, yaitu [sscasn.bkn.go.id](https://sscasn.bkn.go.id) dan situs BKN, serta baca rangkuman kami di [jadwal pendaftaran CPNS 2026](/jadwal-pendaftaran-cpns-2026/). Sambil menunggu, siapkan akun dan dokumen lewat panduan [cara daftar CPNS 2026 di SSCASN](/cara-daftar-cpns-2026-di-sscasn/).
 

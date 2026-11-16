@@ -3,7 +3,7 @@ title: "Contoh Soal TKP CPNS + Trik Menaikkan Skor ke 166+"
 description: "10 contoh soal TKP CPNS bergaya CAT + pembahasan skor tiap opsi. Pahami sistem penilaian 1–5 dan trik memilih jawaban paling ASN agar tembus 166+."
 date: 2026-09-01
 slug: contoh-soal-tkp-cpns
-updated: 2026-09-01
+updated: 2026-11-16
 kategori: Contoh Soal
 tags: contoh soal TKP, TKP CPNS, skor TKP, SKD CPNS, tips TKP
 keywords: contoh soal tkp cpns, soal tkp dan pembahasan, trik tkp, skor tkp 166, penilaian tkp 1-5
@@ -37,13 +37,13 @@ Artinya, dalam satu soal TKP, lima pilihan jawaban memiliki nilai 1, 2, 3, 4, da
 
 Angka 166 yang sering disebut adalah nilai ambang batas (passing grade) TKP dari KepmenPAN-RB 321/2024, yaitu acuan seleksi terakhir yang berlaku (T.A. 2024). Untuk kebutuhan umum, ambang SKD adalah TWK 65, TIU 80, TKP 166, dengan nilai kumulatif minimal 311.
 
-**Penting — status CPNS 2026:** sampai artikel ini ditulis (1 September 2026), pemerintah belum mengumumkan jadwal pendaftaran maupun passing grade resmi CPNS 2026. Portal SSCASN masih menampilkan Seleksi Sekolah Kedinasan 2026, dan BKN mengingatkan masyarakat agar mewaspadai informasi jadwal palsu yang beredar di media sosial. Seluruh angka di artikel ini adalah acuan seleksi terakhir dan akan diperbarui saat regulasi 2026 terbit.
+**Penting — status CPNS 2026:** per pertengahan November 2026, pembuatan akun SSCASN untuk CPNS 2026 sudah dibuka (sejak 14 November 2026, menurut pemberitaan Kompas.com dan Poskota yang mengutip unggahan resmi BKN). Namun, jadwal pendaftaran, formasi, dan passing grade resmi CPNS 2026 belum diumumkan. Untuk tahun 2026, yang sudah terbit baru ambang batas SKD sekolah kedinasan (KepmenPANRB 406/2026, TKP 156), yang tidak otomatis berlaku untuk CPNS umum. Seluruh angka di artikel ini adalah acuan resmi terakhir untuk CPNS dan akan diperbarui saat regulasi 2026 terbit. Perkembangannya kami rangkum di [CPNS 2026 dibuka: info terbaru](/cpns-2026-dibuka-info-terbaru/).
 
 Sebagai konteks, ambang SKD juga berbeda untuk jalur khusus:
 
 | Jalur | TIU | Nilai Kumulatif Minimal |
 |---|---|---|
-| Umum & putra/putri Kalimantan | 80 | 311 (TWK 65 + TIU 80 + TKP 166) |
+| Umum & putra/putri Kalimantan | 80 | Tidak ada; TWK ≥65, TIU ≥80, dan TKP ≥166 wajib dipenuhi masing-masing |
 | Lulusan terbaik (cumlaude) & diaspora | 85 | 311 |
 | Disabilitas, putra/putri Papua & daerah tertinggal | 60 | 286 |
 
@@ -242,18 +242,18 @@ Pelajaran dari tabel: menjawab semua soal dengan skor 3 saja **tidak cukup**. Ku
 
 ## Latihan Lebih Banyak: Coba Tryout SKD Online
 
-Memahami pola saja belum cukup — TKP butuh latihan agar insting memilih jawaban "paling ASN" terbentuk. Untuk simulasi yang mendekati ujian asli, coba halaman [try out SKD CPNS online di Skditumudah](https://app.skditumudah.com/daftar) yang menyediakan paket latihan soal bergaya CAT dengan pembahasan. Baca juga [Kisi-kisi Materi SKD CPNS 2026](/kisi-kisi-materi-skd-cpns-2026/) untuk peta lengkap materi TWK, TIU, dan TKP sebelum mulai latihan.
+Memahami pola saja belum cukup — TKP butuh latihan agar insting memilih jawaban "paling ASN" terbentuk. Untuk simulasi yang mendekati ujian asli, coba halaman [try out SKD CPNS online di Skditumudah](https://app.skditumudah.com/daftar) yang menyediakan paket latihan soal bergaya CAT dengan pembahasan, atau pelajari dulu format dan fiturnya di halaman [tryout SKD CPNS](/tryout-skd-cpns/). Baca juga [Kisi-kisi Materi SKD CPNS 2026](/kisi-kisi-materi-skd-cpns-2026/) untuk peta lengkap materi TWK, TIU, dan TKP sebelum mulai latihan.
 
-## FAQ Seputar TKP CPNS
+## Pertanyaan yang Sering Diajukan
 
-**Apakah ada jawaban salah di soal TKP?**
+### Apakah ada jawaban salah di soal TKP?
 Tidak. Setiap opsi punya nilai 1–5; yang membedakan hanyalah seberapa sesuai pilihan tersebut dengan nilai-nilai ASN. Tidak menjawab adalah satu-satunya pilihan yang pasti bernilai 0.
 
-**Berapa skor maksimal TKP?**
+### Berapa skor maksimal TKP?
 225, dari 45 soal × skor tertinggi 5. Total skor maksimal SKD adalah 550 (TWK 150 + TIU 175 + TKP 225).
 
-**Apakah passing grade TKP 166 sudah pasti berlaku untuk CPNS 2026?**
-Belum. Angka 166 adalah acuan KepmenPAN-RB 321/2024 untuk seleksi T.A. 2024. Pemerintah belum mengumumkan passing grade resmi CPNS 2026 (status per 1 September 2026); artikel ini akan diperbarui saat regulasi terbit.
+### Apakah passing grade TKP 166 sudah pasti berlaku untuk CPNS 2026?
+Belum. Angka 166 adalah acuan KepmenPAN-RB 321/2024 untuk seleksi T.A. 2024. Per pertengahan November 2026, pemerintah belum mengumumkan passing grade resmi CPNS 2026; artikel ini akan diperbarui saat regulasi terbit.
 
-**Bagaimana jika nilai SKD saya sama dengan peserta lain?**
+### Bagaimana jika nilai SKD saya sama dengan peserta lain?
 Sesuai PermenPAN-RB 6/2024, penentuan kelulusan diurutkan dari nilai TKP tertinggi, lalu TIU, lalu TWK. Jika semuanya sama persis, peserta yang bersangkutan tetap diloloskan mengikuti SKB.
