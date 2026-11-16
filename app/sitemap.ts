@@ -43,6 +43,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "daily" as const,
       priority: 1,
     },
+    ...["/tryout-skd-cpns/", "/tryout-skd-kedinasan/"].map((p) => ({
+      url: `${SITUS.url}${p}`,
+      lastModified: new Date("2026-11-16"),
+      changeFrequency: "weekly" as const,
+      priority: 0.95,
+    })),
     {
       url: `${SITUS.url}/artikel/`,
       lastModified: artikel.reduce((t, a) => (a.lastModified > t ? a.lastModified : t), DIUBAH),

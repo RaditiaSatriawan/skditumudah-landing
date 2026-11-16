@@ -16,8 +16,6 @@ export type KartuArtikel = {
   imageAlt: string;
 };
 
-const tanggal = (iso: string) =>
-  iso ? new Date(iso).toLocaleDateString("id-ID", { day: "numeric", month: "short", year: "numeric" }) : "";
 
 function Panah({ className = "" }: { className?: string }) {
   return (
@@ -116,7 +114,7 @@ export default function DaftarArtikel({ artikel }: { artikel: KartuArtikel[] }) 
             <p className="mt-3 line-clamp-3 text-sm leading-relaxed text-[#c9d4ff] sm:text-base">{sorotan.description}</p>
             <div className="mt-6 flex items-center justify-between gap-4">
               <span className="text-xs text-[#c9d4ff]">
-                {tanggal(sorotan.updated)} · {sorotan.menitBaca} menit baca
+                {sorotan.menitBaca} menit baca
               </span>
               <span className="inline-flex items-center gap-2 rounded-full bg-white px-5 py-2.5 text-sm font-black text-[#00236f] transition group-hover:gap-3">
                 Baca
@@ -159,9 +157,8 @@ export default function DaftarArtikel({ artikel }: { artikel: KartuArtikel[] }) 
                 <h3 className="text-lg font-extrabold leading-snug text-[#111c2d] transition group-hover:text-[#00236f]">{a.title}</h3>
                 <p className="mt-2 line-clamp-3 flex-1 text-sm leading-relaxed text-[#54647a]">{a.description}</p>
                 <div className="mt-5 flex items-center justify-between border-t border-[#eef0f6] pt-4">
-                  <span className="text-xs text-[#54647a]">{tanggal(a.updated)}</span>
+                  <span className="text-xs font-semibold text-[#54647a]">Baca selengkapnya</span>
                   <span className="inline-flex items-center gap-1.5 text-sm font-black text-[#00236f]">
-                    Baca
                     <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#f0f3ff] transition group-hover:translate-x-1 group-hover:bg-[#00236f] group-hover:text-white">
                       <Panah className="h-4 w-4" />
                     </span>

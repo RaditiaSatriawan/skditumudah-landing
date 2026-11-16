@@ -4,7 +4,7 @@ seoTitle: "Passing Grade SKD CPNS: Nilai Ambang TWK, TIU, TKP"
 description: "Butuh angka pasti passing grade SKD CPNS? Simak nilai ambang batas TWK, TIU, TKP per jalur (umum, cumlaude, disabilitas, Papua) dan target skor aman."
 date: 2026-09-01
 slug: passing-grade-skd-cpns
-updated: 2026-09-01
+updated: 2026-11-16
 kategori: Panduan SKD
 tags: passing grade, nilai ambang batas, SKD CPNS, target skor SKD, CPNS 2026
 keywords: passing grade skd cpns, nilai ambang batas skd, passing grade cpns 2026, passing grade cumlaude, target skor skd
@@ -17,7 +17,7 @@ imageAlt: Tangan memegang pensil saat mengerjakan soal
 
 ---
 
-Passing grade SKD CPNS adalah nilai ambang batas minimum yang harus dicapai pelamar dalam Seleksi Kompetensi Dasar (SKD) agar berhak lanjut ke tahap Seleksi Kompetensi Bidang (SKB). Sampai artikel ini ditulis (1 September 2026), pemerintah belum mengumumkan secara resmi jadwal maupun nilai ambang batas untuk seleksi CPNS yang baru — BKN bahkan mengonfirmasi bahwa poster pembukaan CPNS 2026 yang beredar di media sosial adalah hoaks. Acuan resmi terakhir yang masih berlaku adalah Keputusan Menteri PANRB Nomor 321 Tahun 2024, yaitu TWK 65, TIU 80, dan TKP 166 untuk kebutuhan umum. Di artikel ini kami rangkum ambang batas per jalur, sistem penilaian SKD, cara penentuan kelulusan, serta target skor aman agar peluang lolos Anda semakin besar.
+Passing grade SKD CPNS adalah nilai ambang batas minimum yang harus dicapai pelamar dalam Seleksi Kompetensi Dasar (SKD) agar berhak lanjut ke tahap Seleksi Kompetensi Bidang (SKB). Per pertengahan November 2026, pembuatan akun SSCASN untuk CPNS 2026 sudah dibuka, tetapi jadwal resmi, formasi, dan nilai ambang batas SKD untuk CPNS tahun anggaran 2026 belum diumumkan. Acuan resmi terakhir untuk CPNS adalah Keputusan Menteri PANRB Nomor 321 Tahun 2024, yaitu TWK 65, TIU 80, dan TKP 166 untuk kebutuhan umum. Di artikel ini kami rangkum ambang batas per jalur, sistem penilaian SKD, cara penentuan kelulusan, serta target skor aman agar peluang lolos Anda semakin besar.
 
 ## Apa Itu Passing Grade SKD CPNS?
 
@@ -88,15 +88,16 @@ Mengapa targetnya segitu?
 - **Total ≥345** untuk kebutuhan umum memberi jarak aman ±34 poin di atas total ambang (311) sekaligus menutup kemungkinan nilai TKP yang fluktuatif.
 
 
-## Status Jadwal Seleksi CPNS: Belum Diumumkan Resmi
+## Status Seleksi CPNS 2026: Akun SSCASN Dibuka, Ambang Batas Belum Terbit
 
-Jujur saja: hingga 1 September 2026, belum ada pengumuman resmi jadwal pendaftaran CPNS dari BKN maupun Kementerian PANRB. Yang perlu Anda ketahui:
+Per pertengahan November 2026, inilah yang perlu Anda bedakan antara informasi resmi dan pemberitaan media:
 
-- BKN mengonfirmasi bahwa poster "pembukaan CPNS 2026" yang beredar di media sosial adalah **hoaks** (pengumuman resmi BKN, Juni 2026).
-- Portal resmi SSCASN (sscasn.bkn.go.id) belum menampilkan pengumuman seleksi baru.
-- Beberapa pemberitaan (Agustus 2026) menyebutkan seleksi CPNS yang semula direncanakan tahun ini ditunda dan diperkirakan dibuka awal 2027, namun hal ini belum diumumkan secara resmi oleh pemerintah.
+- **Akun SSCASN sudah bisa dibuat.** Menurut Kompas.com (16 November 2026) dan Poskota (14 November 2026), BKN mengumumkan lewat Instagram resminya, @bkngoidofficial, bahwa pembuatan akun SSCASN untuk CPNS 2026 dibuka sejak Sabtu, 14 November 2026. Membuat akun belum sama dengan mendaftar formasi.
+- **Pengumuman seleksi masih berupa target.** Poskota mengutip Kepala BKN Zudan Arif Fakrulloh yang menargetkan pengumuman pada pekan keempat November, dengan formasi dan tahapan diperkirakan tersedia sekitar 20–23 November 2026. Tanggal ini belum ditetapkan dalam pengumuman resmi.
+- **Timeline resmi belum tampil.** Saat kami cek pada pertengahan November 2026, bagian timeline pengadaan di portal SSCASN masih bertuliskan "Data tahapan belum tersedia".
+- **Ambang batas CPNS 2026 belum terbit.** Kami belum menemukan keputusan Menteri PANRB tentang nilai ambang batas SKD CPNS tahun anggaran 2026 di JDIH Kementerian PANRB. Yang sudah terbit untuk tahun 2026 adalah KepmenPANRB 406/2026 khusus sekolah kedinasan (TWK 65, TIU 80, TKP 156), bukan CPNS umum.
 
-Karena itu, angka ambang batas pada artikel ini menggunakan acuan resmi terakhir (KepmenPAN-RB 321/2024). Jika nanti pemerintah menerbitkan keputusan baru, angka tersebut bisa berubah — pantau terus [sscasn.bkn.go.id](https://sscasn.bkn.go.id), [bkn.go.id](https://www.bkn.go.id), dan [menpan.go.id](https://www.menpan.go.id), dan jangan percaya informasi seleksi dari sumber yang tidak resmi.
+Karena itu, angka ambang batas pada artikel ini menggunakan acuan resmi terakhir untuk CPNS (KepmenPAN-RB 321/2024). Rangkuman perkembangan terbarunya kami kumpulkan di [CPNS 2026 dibuka: info terbaru](/cpns-2026-dibuka-info-terbaru/). Jika nanti pemerintah menerbitkan keputusan baru, angka tersebut bisa berubah — pantau terus [sscasn.bkn.go.id](https://sscasn.bkn.go.id), [bkn.go.id](https://www.bkn.go.id), dan [menpan.go.id](https://www.menpan.go.id), dan jangan percaya informasi seleksi dari sumber yang tidak resmi.
 
 ## Tips Mencapai Skor Aman
 
@@ -106,18 +107,18 @@ Karena itu, angka ambang batas pada artikel ini menggunakan acuan resmi terakhir
 4. **Kerjakan try out secara berkala** dan evaluasi subtes mana yang paling banyak salah, lalu perbaiki secara bertahap.
 5. **Jaga akurasi TWK.** Materi Pancasila, UUD 1945, NKRI, dan Bhinneka Tunggal Ika bersifat hafalan terstruktur — peluang skor sempurna lebih terbuka dibanding TIU.
 
-Siap berlatih? Coba [try out SKD CPNS gratis di Skditumudah](https://app.skditumudah.com/daftar) untuk mengukur posisi skor Anda terhadap target di atas. Anda juga bisa membaca artikel terkait: [Jadwal Pendaftaran CPNS](/jadwal-pendaftaran-cpns-2026/) dan [Syarat dan Dokumen CPNS](/syarat-dokumen-pendaftaran-cpns-2026/).
+Siap berlatih? Coba [try out SKD CPNS gratis di Skditumudah](https://app.skditumudah.com/daftar) untuk mengukur posisi skor Anda terhadap target di atas, atau lihat dulu format dan fiturnya di halaman [tryout SKD CPNS](/tryout-skd-cpns/). Anda juga bisa membaca artikel terkait: [Jadwal Pendaftaran CPNS](/jadwal-pendaftaran-cpns-2026/) dan [Syarat dan Dokumen CPNS](/syarat-dokumen-pendaftaran-cpns-2026/).
 
 ## Pertanyaan yang Sering Diajukan
 
-**Apakah pelamar kebutuhan umum wajib mencapai total 311?**
+### Apakah pelamar kebutuhan umum wajib mencapai total 311?
 Tidak. Untuk kebutuhan umum tidak ada syarat kumulatif; yang wajib adalah memenuhi ketiga ambang subtes: TWK ≥65, TIU ≥80, dan TKP ≥166. Angka 311 hanyalah penjumlahan matematis ketiga ambang tersebut.
 
-**Bagaimana jika TKP saya di bawah 166 tetapi total nilai besar?**
+### Bagaimana jika TKP saya di bawah 166 tetapi total nilai besar?
 Untuk kebutuhan umum, tetap tidak lulus — ketiga ambang subtes harus dipenuhi masing-masing. Untuk kebutuhan khusus (misalnya cumlaude), yang disyaratkan adalah kumulatif minimal dan TIU minimal.
 
-**Apakah nilai SKD bisa dipakai untuk seleksi tahun berikutnya?**
+### Apakah nilai SKD bisa dipakai untuk seleksi tahun berikutnya?
 Berdasarkan KepmenPAN-RB 321/2024, nilai SKD berlaku hingga satu periode seleksi berikutnya. Namun jika peserta mengikuti seleksi pada periode berikutnya, nilai periode sebelumnya dinyatakan tidak berlaku.
 
-**Apa bedanya ambang batas dan skor aman?**
+### Apa bedanya ambang batas dan skor aman?
 Ambang batas adalah syarat minimal resmi agar diurutkan; skor aman adalah target strategis agar posisi Anda aman di dalam kuota 3× formasi. Karena kelulusan ditentukan peringkat, skor aman biasanya jauh lebih tinggi dari ambang batas.

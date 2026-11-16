@@ -23,7 +23,7 @@ Siapkan berkas digital dan data berikut agar proses pendaftaran tidak terhenti d
 - **NIK dan nomor Kartu Keluarga (KK)** yang sudah sinkron dengan data Dukcapil.
 - **Alamat email aktif** dan **nomor ponsel aktif**.
 - **Pasfoto** dengan latar sesuai ketentuan instansi.
-- **Swafoto** sambil memegang KTP elektronik dan kartu informasi akun.
+- **Kamera HP atau laptop yang berfungsi** untuk swafoto langsung saat membuat akun, serta **pindaian KTP** berformat JPG/JPEG maksimal 200 KB.
 - **Ijazah asli** dan **transkrip nilai** yang dipindai (scan) dalam format PDF.
 - Dokumen tambahan sesuai syarat formasi, misalnya surat lamaran, surat pernyataan, sertifikat pendidik, STR, atau sertifikat bahasa.
 
@@ -31,17 +31,21 @@ Perhatikan ketentuan ukuran berkas di pengumuman resmi. Biasanya dokumen dibatas
 
 ## Langkah 1: Membuat Akun SSCASN
 
+Pada halaman pembuatan akun yang aktif per pertengahan November 2026, alurnya terdiri atas lima tahap: Cek Identitas, Lengkapi Data, Swafoto, Konfirmasi, dan Selesai.
+
 1. Buka **sscasn.bkn.go.id** lalu pilih menu **Daftar**.
-2. Masukkan **NIK, nomor KK, nama lengkap, dan tanggal lahir** persis seperti di data kependudukan.
-3. Isi **email dan nomor ponsel** aktif, lalu buat kata sandi yang kuat dan hanya Anda yang tahu.
-4. Jawab **pertanyaan pengaman** dan ingat jawabannya.
-5. Periksa kembali ringkasan data, lalu **cetak atau simpan Kartu Informasi Akun**.
+2. Masukkan **NIK, nomor KK, nama, jenis kelamin, serta tempat dan tanggal lahir** persis seperti di KTP, lalu email dan nomor ponsel aktif.
+3. Lengkapi data ijazah, unggah pindaian KTP, buat kata sandi yang kuat, dan jawab dua **pertanyaan pengaman**.
+4. Ambil **swafoto langsung lewat kamera**. Foto ini dipakai sebagai foto identitas saat ujian CAT, jadi ikuti aturan foto yang tertera di halaman.
+5. Periksa kembali ringkasan data, lalu **cetak atau simpan Kartu Informasi Akun**. Data akun tidak bisa diubah setelah diproses.
+
+Panduan rinci tiap tahap ada di artikel [cara membuat akun SSCASN 2026](/cara-membuat-akun-sscasn-2026/).
 
 > **Penting:** Data NIK dan nama yang tidak cocok dengan Dukcapil adalah penyebab paling umum gagal membuat akun. Jika gagal, perbarui data di kantor Dinas Kependudukan dan Pencatatan Sipil setempat terlebih dahulu.
 
-## Langkah 2: Login dan Unggah Swafoto
+## Langkah 2: Login ke Akun SSCASN
 
-Login memakai NIK dan kata sandi. Sistem akan meminta **swafoto** sambil memegang KTP elektronik dan Kartu Informasi Akun. Pastikan wajah, KTP, dan kartu terlihat jelas dan tidak buram.
+Setelah akun jadi, login memakai NIK dan kata sandi. Saat pendaftaran formasi dibuka, menu pendaftaran akan tersedia dari akun ini. Simpan kata sandi dan jawaban pertanyaan pengaman dengan baik, karena keduanya diperlukan bila Anda lupa akses.
 
 ## Langkah 3: Lengkapi Biodata dan Pendidikan
 

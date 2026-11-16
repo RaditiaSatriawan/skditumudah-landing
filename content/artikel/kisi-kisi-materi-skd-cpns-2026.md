@@ -4,7 +4,7 @@ seoTitle: "Kisi-kisi Materi SKD CPNS 2026: TWK, TIU, TKP"
 description: "Pahami kisi-kisi materi SKD CPNS 2026: TWK, TIU, dan TKP lengkap dengan tipe soal, contoh singkat, bobot nilai, dan strategi belajar per subtes."
 date: 2026-09-01
 slug: kisi-kisi-materi-skd-cpns-2026
-updated: 2026-09-01
+updated: 2026-11-16
 kategori: Panduan SKD
 tags: kisi-kisi SKD, materi SKD, TWK, TIU, TKP
 keywords: kisi-kisi skd cpns 2026, materi skd cpns, materi twk tiu tkp, bobot nilai skd
@@ -20,14 +20,14 @@ imageAlt: Tumpukan buku dengan satu buku terbuka untuk belajar materi SKD
 
 Kisi-kisi materi SKD CPNS adalah peta pertama yang wajib dikuasai sebelum berlatih soal. Artikel ini menyajikan peta lengkap Seleksi Kompetensi Dasar (SKD) Calon Pegawai Negeri Sipil — Tes Wawasan Kebangsaan (TWK), Tes Intelegensia Umum (TIU), dan Tes Karakteristik Pribadi (TKP) — mulai dari lingkup materi resmi, tipe soal yang biasa muncul, contoh singkat, hingga bobot nilainya.
 
-Satu catatan penting di awal: hingga artikel ini ditulis (1 September 2026), pemerintah **belum mengumumkan jadwal resmi CPNS umum 2026**. Portal SSCASN BKN saat ini masih menampilkan seleksi Sekolah Kedinasan 2026 dengan keterangan timeline "data tahapan belum tersedia". Karena itu, kisi-kisi yang diuraikan di bawah ini mengacu pada ketentuan resmi seleksi terakhir — Keputusan Menteri PANRB Nomor 321 Tahun 2024 yang diterbitkan sebagai tindak lanjut Peraturan Menteri PANRB Nomor 6 Tahun 2024 — dan akan diperbarui jika pemerintah menerbitkan ketentuan baru untuk 2026.
+Satu catatan penting di awal: per pertengahan November 2026, pembuatan akun SSCASN untuk CPNS 2026 sudah dibuka, tetapi pemerintah **belum menerbitkan pengumuman resmi seleksi CPNS 2026** beserta jadwal, formasi, dan ketentuan SKD-nya. Karena itu, kisi-kisi yang diuraikan di bawah ini mengacu pada ketentuan resmi seleksi terakhir — Keputusan Menteri PANRB Nomor 321 Tahun 2024 yang diterbitkan sebagai tindak lanjut Peraturan Menteri PANRB Nomor 6 Tahun 2024 — dan akan diperbarui jika pemerintah menerbitkan ketentuan baru untuk 2026.
 
-## Status Resmi Kisi-kisi SKD CPNS 2026 per 1 September 2026
+## Status Terbaru Kisi-kisi SKD CPNS 2026
 
-Sebelum membahas materinya, penting untuk menyetarakan informasi yang benar:
+Sebelum membahas materinya, penting untuk menyetarakan informasi yang benar per pertengahan November 2026:
 
-- **Jadwal CPNS umum 2026 belum diumumkan.** BKN menegaskan pengadaan ASN melalui tahapan penetapan kebutuhan nasional, persetujuan formasi, lalu pengumuman resmi. Pendaftaran baru dibuka setelah pengumuman itu terbit.
-- **Waspadai hoaks.** Pada Juni 2026, BKN menyatakan poster yang mengklaim pendaftaran CPNS 2026 telah dibuka adalah hoaks. Informasi resmi hanya dari kanal pemerintah: sscasn.bkn.go.id, bkn.go.id, dan menpan.go.id.
+- **Akun SSCASN sudah dibuka, pendaftaran formasi belum.** Menurut Kompas.com dan Poskota, BKN mengumumkan lewat Instagram resminya (@bkngoidofficial) bahwa pembuatan akun SSCASN untuk CPNS 2026 dibuka sejak 14 November 2026. Poskota mengutip Kepala BKN Zudan Arif Fakrulloh yang menargetkan pengumuman formasi dan tahapan sekitar 20–23 November 2026. Tanggal itu masih target, bukan jadwal resmi. Perkembangannya kami rangkum di [CPNS 2026 dibuka: info terbaru](/cpns-2026-dibuka-info-terbaru/).
+- **Waspadai hoaks.** Sepanjang 2026, BKN beberapa kali membantah poster dan tautan pendaftaran CPNS palsu. Informasi resmi hanya dari kanal pemerintah: sscasn.bkn.go.id, bkn.go.id, dan menpan.go.id.
 - **Kisi-kisi final 2026 belum terbit.** Materi di artikel ini adalah acuan resmi seleksi terakhir dan sangat mungkin dipertahankan, tetapi angka final (jumlah soal, durasi, ambang batas) tetap menunggu ketentuan resmi 2026.
 
 ## Gambaran Umum SKD: 110 Soal dalam 100 Menit
@@ -149,7 +149,7 @@ E. mengarahkannya ke loket lain tanpa penjelasan
 
 **Pembahasan (contoh distribusi bobot):** opsi **C** mendapat bobot tertinggi karena memadukan keramahtamahan, efektivitas pelayanan, dan penghargaan terhadap kewenangan warga atas datanya sendiri — inti nilai pelayanan publik. Opsi A dan E tetap bernilai (ada unsur membantu/merujuk) tetapi kurang efektif; opsi D berisiko karena mengambil keputusan atas data pribadi tanpa konfirmasi; opsi B menunda kebutuhan warga sehingga berbobot paling rendah. Semua opsi tetap mendapat nilai > 0 — itulah sistem gradasi TKP.
 
-**Pola memilih jawaban TKP:** bayangkan diri Anda sebagai ASN ideal — profesional, melayani, menjunjung integritas, dan menolak segala bentuk radikalisme. Pilih tindakan yang paling efektif menyelesaikan masalah dengan tetap menghormati orang lain, bukan yang paling cepat atau paling "heroik". Latihan lebih lanjut bisa Anda pelajari di [artikel contoh soal TKP CPNS dengan trik menaikkan skor](/contoh-soal-tkp-cpns/) _(link silo seri soal — sesuaikan slug saat artikel terbit)_.
+**Pola memilih jawaban TKP:** bayangkan diri Anda sebagai ASN ideal — profesional, melayani, menjunjung integritas, dan menolak segala bentuk radikalisme. Pilih tindakan yang paling efektif menyelesaikan masalah dengan tetap menghormati orang lain, bukan yang paling cepat atau paling "heroik". Latihan lebih lanjut bisa Anda pelajari di [artikel contoh soal TKP CPNS dengan trik menaikkan skor](/contoh-soal-tkp-cpns/).
 
 ## Cara Memakai Kisi-kisi Ini untuk Belajar
 
@@ -160,18 +160,18 @@ Kisi-kisi hanya berguna jika diterjemahkan menjadi rencana belajar. Saran pembag
 3. **Minggu 3 — TIU verbal & figural:** latih analogi dan silogisme; biasakan mata membaca pola gambar.
 4. **Minggu 4 — TKP + simulasi:** pahami gradasi nilai 1–5, lalu kerjakan simulasi CAT 110 soal dalam 100 menit minimal dua kali.
 
-Selama belajar, gunakan [try out SKD CPNS online di Skditumudah](https://app.skditumudah.com/daftar) untuk mengukur progres dengan format yang menyerupai CAT BKN _(path /tryout/ — sesuaikan jika halaman try out menggunakan path lain)_. Untuk mengetahui target skor yang aman dan ambang batas per jalur formasi, baca [artikel passing grade SKD CPNS](/passing-grade-skd-cpns/) _(link silo — sesuaikan slug saat artikel terbit)_.
+Selama belajar, gunakan [try out SKD CPNS online di Skditumudah](https://app.skditumudah.com/daftar) untuk mengukur progres dengan format yang menyerupai CAT BKN. Penjelasan format dan fiturnya ada di halaman [tryout SKD CPNS](/tryout-skd-cpns/). Untuk mengetahui target skor yang aman dan ambang batas per jalur formasi, baca [artikel passing grade SKD CPNS](/passing-grade-skd-cpns/).
 
 ## Pertanyaan yang Sering Diajukan (FAQ)
 
-**Apakah kisi-kisi SKD CPNS 2026 sudah diumumkan resmi?**
-Belum. Hingga 1 September 2026, pemerintah belum mengumumkan jadwal maupun ketentuan seleksi CPNS umum 2026. Acuan resmi terakhir adalah KepmenPAN-RB 321/2024 (tindak lanjut PermenPAN-RB 6/2024).
+### Apakah kisi-kisi SKD CPNS 2026 sudah diumumkan resmi?
+Belum. Per pertengahan November 2026, pembuatan akun SSCASN sudah dibuka, tetapi jadwal dan ketentuan seleksi CPNS 2026 belum diumumkan resmi. Acuan resmi terakhir adalah KepmenPAN-RB 321/2024 (tindak lanjut PermenPAN-RB 6/2024).
 
-**Berapa jumlah soal SKD?**
+### Berapa jumlah soal SKD?
 Pada seleksi terakhir: 110 soal (TWK 30, TIU 35, TKP 45) dalam 100 menit untuk pelamar umum. Angka final 2026 menunggu ketentuan resmi.
 
-**Apakah soal TKP punya jawaban yang salah?**
+### Apakah soal TKP punya jawaban yang salah?
 Tidak ada jawaban yang mutlak salah — setiap opsi bernilai 1–5. Yang menentukan adalah seberapa sesuai opsi tersebut dengan perilaku ideal ASN. Tidak menjawab bernilai 0.
 
-**Di mana memantau pengumuman resmi CPNS 2026?**
+### Di mana memantau pengumuman resmi CPNS 2026?
 Hanya di kanal resmi: sscasn.bkn.go.id (pendaftaran dan timeline), bkn.go.id, dan menpan.go.id. Abaikan poster atau tautan dari sumber tidak resmi.
