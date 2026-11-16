@@ -139,3 +139,8 @@ body {
 .article img { max-width: 100%; height: auto; border-radius: 0.5rem; margin: 1rem 0; }
 .article hr { border: none; border-top: 1px solid #c5c5d3; margin: 2rem 0; }
 .article strong { color: #111c2d; }
+
+@keyframes muncul {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: none; }
+}

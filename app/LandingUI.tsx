@@ -487,6 +487,9 @@ export default function LandingUI({ data }: { data: any }) {
         </div>
       </section>
 
+      {/* ── Intip Isi Aplikasi ── */}
+      <GaleriAplikasi />
+
       {/* ── Features Section ── */}
       <section id="fitur" className="py-16 md:py-24 bg-surface-container-lowest overflow-hidden">
         <div className="max-w-7xl mx-auto px-5 sm:px-6">
@@ -720,42 +723,12 @@ export default function LandingUI({ data }: { data: any }) {
           }}
         />
         <div className="max-w-7xl mx-auto px-5 sm:px-6 relative z-10">
-          {testimonis.filter((t: any) => t.isFeatured).map((t: any) => (
-            <div key={t.id} className="max-w-4xl mx-auto text-center space-y-6 md:space-y-10">
-              <span className="material-symbols-outlined text-5xl md:text-6xl text-tertiary-fixed-dim/40">
-                format_quote
-              </span>
-              <h2 className="text-2xl sm:text-3xl md:text-5xl font-black italic leading-tight">
-                "{t.isi}"
-              </h2>
-              <div className="flex flex-col items-center space-y-2">
-                <div className="w-14 h-14 md:w-16 md:h-16 rounded-full border-4 border-white/20 bg-slate-500 flex items-center justify-center">
-                  <span className="text-white text-xl md:text-2xl font-bold">{t.nama[0]}</span>
-                </div>
-                <div>
-                  <p className="font-bold text-base md:text-lg">{t.nama}</p>
-                  <p className="text-white/60 text-sm">{t.jabatan}</p>
-                </div>
-              </div>
-            </div>
-          ))}
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6 mt-10 md:mt-16">
-            {testimonis.filter((t: any) => !t.isFeatured).map((t: any) => (
-              <div key={t.id} className="glass-card p-6 md:p-8 rounded-3xl">
-                <p className="text-sm italic mb-5">"{t.isi}"</p>
-                <div className="flex items-center gap-3">
-                  <div className="w-10 h-10 rounded-full bg-slate-500 flex items-center justify-center flex-shrink-0 text-white text-sm font-bold">
-                    {t.nama[0]}
-                  </div>
-                  <div>
-                    <p className="text-xs font-bold">{t.nama}</p>
-                    <p className="text-[10px] text-white/50">{t.jabatan}</p>
-                  </div>
-                </div>
-              </div>
-            ))}
+          <div className="text-center max-w-2xl mx-auto mb-10 md:mb-14">
+            <span className="material-symbols-outlined text-5xl text-tertiary-fixed-dim/50">format_quote</span>
+            <h2 className="text-3xl md:text-5xl font-black mt-2">Kata Mereka</h2>
+            <p className="text-white/70 mt-3 text-sm md:text-base">Cerita peserta yang berlatih SKD di Skditumudah.</p>
           </div>
+          <KorselTestimoni items={testimonis} />
         </div>
       </section>
 
@@ -853,7 +826,7 @@ export default function LandingUI({ data }: { data: any }) {
             </p>
             <div className="pt-2">
               <a 
-                href="https://wa.me/6282339363042" 
+                href="https://wa.me/6285128075256" 
                 target="_blank"
                 rel="noreferrer"
                 className="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-6 py-3 bg-white rounded-xl border border-outline-variant/30 font-bold hover:bg-slate-50 transition-colors"
@@ -861,7 +834,7 @@ export default function LandingUI({ data }: { data: any }) {
                 <span className="material-symbols-outlined text-green-500">
                   chat
                 </span>
-                WhatsApp: 082339363042
+                WhatsApp: 085128075256
               </a>
             </div>
           </div>
@@ -951,10 +924,10 @@ export default function LandingUI({ data }: { data: any }) {
             <h5 className="text-white font-bold">Layanan Kami</h5>
             <ul className="space-y-4">
               {[
-                "Tryout SKD CPNS",
+                "Tryout SKD Terlengkap",
                 "Simulasi CAT Kedinasan",
                 "Bank Soal Terupdate",
-                "Mini Tryout & Tes Pauli",
+                "Mini Tryout & Tes Koran",
               ].map((item) => (
                 <li key={item}>
                   <a
@@ -973,9 +946,9 @@ export default function LandingUI({ data }: { data: any }) {
             <h5 className="text-white font-bold">Kontak & Perusahaan</h5>
             <ul className="space-y-4">
               <li>
-                <a href="https://wa.me/6282339363042" target="_blank" rel="noreferrer" className="flex items-center gap-2 text-sm text-slate-400 hover:text-tertiary-fixed-dim transition-colors">
+                <a href="https://wa.me/6285128075256" target="_blank" rel="noreferrer" className="flex items-center gap-2 text-sm text-slate-400 hover:text-tertiary-fixed-dim transition-colors">
                   <span className="material-symbols-outlined text-sm">chat</span>
-                  WhatsApp: 082339363042
+                  WhatsApp: 085128075256
                 </a>
               </li>
               <li>
@@ -1041,5 +1014,226 @@ export default function LandingUI({ data }: { data: any }) {
         </div>
       </footer>
     </div>
+  );
+}
+
+/**
+ * Testimoni yang bergeser satu kartu ke kiri setiap beberapa detik dan berputar tanpa ujung. Daftar diulang sampai
+ * cukup panjang supaya baris tidak pernah menyisakan ruang kosong. Berhenti saat disentuh atau difokus, dan diam bila
+ * pengguna memilih mengurangi gerakan.
+ */
+function KorselTestimoni({ items }: { items: any[] }) {
+  const dasar: any[] = [];
+  if (items.length) while (dasar.length < Math.max(8, items.length)) dasar.push(...items);
+  const jalur = [...dasar, ...dasar, ...dasar];
+  const [indeks, setIndeks] = useState(0);
+  const [animasi, setAnimasi] = useState(true);
+  const [jeda, setJeda] = useState(false);
+  const [langkah, setLangkah] = useState(0);
+  const kartuRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const ukur = () => {
+      const el = kartuRef.current;
+      if (!el) return;
+      const gap = parseFloat(getComputedStyle(el.parentElement as HTMLElement).columnGap || "0");
+      setLangkah(el.getBoundingClientRect().width + gap);
+    };
+    ukur();
+    window.addEventListener("resize", ukur);
+    return () => window.removeEventListener("resize", ukur);
+  }, []);
+
+  useEffect(() => {
+    if (jeda || dasar.length < 2) return;
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    const t = setInterval(() => {
+      setAnimasi(true);
+      setIndeks((i) => i + 1);
+    }, 3500);
+    return () => clearInterval(t);
+  }, [jeda, dasar.length]);
+
+  // Setelah satu putaran penuh (maju atau mundur), pindah ke posisi setara tanpa animasi; tampilannya identik
+  // sehingga tidak terlihat melompat.
+  const selesaiGeser = () => {
+    if (indeks >= dasar.length) {
+      setAnimasi(false);
+      setIndeks(indeks - dasar.length);
+    } else if (indeks < 0) {
+      setAnimasi(false);
+      setIndeks(indeks + dasar.length);
+    }
+  };
+  const geser = (arah: 1 | -1) => {
+    setAnimasi(true);
+    setIndeks((i) => (i <= -1 && arah < 0) || (i >= dasar.length && arah > 0) ? i : i + arah);
+  };
+
+  if (!dasar.length) return null;
+
+  const tombol =
+    "absolute top-1/2 z-20 flex h-11 w-11 -translate-y-1/2 items-center justify-center rounded-full bg-white text-[#00236f] shadow-xl shadow-black/20 transition hover:scale-105 hover:bg-[#ffb95f] focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-[#ffb95f]/60 md:h-12 md:w-12";
+
+  return (
+    <div
+      className="relative overflow-hidden"
+      onMouseEnter={() => setJeda(true)}
+      onMouseLeave={() => setJeda(false)}
+      onFocus={() => setJeda(true)}
+      onBlur={() => setJeda(false)}
+      aria-roledescription="korsel"
+    >
+      <button type="button" aria-label="Testimoni sebelumnya" onClick={() => geser(-1)} className={`${tombol} left-1 md:left-2`}>
+        <span className="material-symbols-outlined">chevron_left</span>
+      </button>
+      <button type="button" aria-label="Testimoni berikutnya" onClick={() => geser(1)} className={`${tombol} right-1 md:right-2`}>
+        <span className="material-symbols-outlined">chevron_right</span>
+      </button>
+      <div aria-hidden className="pointer-events-none absolute inset-y-0 left-0 z-10 w-10 bg-gradient-to-r from-primary to-transparent md:w-20" />
+      <div aria-hidden className="pointer-events-none absolute inset-y-0 right-0 z-10 w-10 bg-gradient-to-l from-primary to-transparent md:w-20" />
+      <div
+        className="flex gap-4 md:gap-6"
+        style={{
+          transform: `translateX(-${(indeks + dasar.length) * langkah}px)`,
+          transition: animasi ? "transform 700ms cubic-bezier(0.22, 1, 0.36, 1)" : "none",
+        }}
+        onTransitionEnd={selesaiGeser}
+      >
+        {jalur.map((t: any, i: number) => (
+          <div
+            key={`${t.id}-${i}`}
+            ref={i === dasar.length ? kartuRef : undefined}
+            aria-hidden={i < dasar.length || i >= dasar.length * 2 || undefined}
+            className="glass-card flex w-[85%] flex-shrink-0 flex-col justify-between rounded-3xl p-6 sm:w-[46%] md:p-7 lg:w-[31.5%]"
+          >
+            <div>
+              <span aria-hidden className="material-symbols-outlined mb-2 block text-3xl text-[#ffb95f]">format_quote</span>
+              <p className="text-sm leading-relaxed text-white/90 md:text-base">&ldquo;{t.isi}&rdquo;</p>
+            </div>
+            <div className="mt-6 flex items-center gap-3">
+              <div className="flex h-11 w-11 flex-shrink-0 items-center justify-center rounded-full bg-[#ffb95f] text-base font-black text-[#2a1700]">
+                {String(t.nama ?? "?")[0]}
+              </div>
+              <div className="min-w-0">
+                <p className="truncate text-sm font-bold">{t.nama}</p>
+                <p className="truncate text-xs text-white/60">{t.jabatan}</p>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+const LAYAR_APLIKASI = [
+  {
+    id: "cat",
+    label: "Tryout CAT",
+    judul: "Simulasi CAT seperti ujian asli",
+    ket: "110 soal, 100 menit, navigator soal, tanda ragu, dan timer. Penilaian TWK, TIU, dan TKP mengikuti sistem CAT BKN.",
+    src: "/screenshot/cat-soal.webp",
+    alamat: "app.skditumudah.com/tryout",
+  },
+  {
+    id: "koran",
+    label: "Tes Koran",
+    judul: "Tes Pauli dan Kraepelin tampilan CAT Koran",
+    ket: "Lembar penuh dengan lajur tak berujung, pindah garis tiap menit, numpad di layar, serta waktu pindah garis dan sisa waktu.",
+    src: "/screenshot/koran-cat.webp",
+    alamat: "app.skditumudah.com/pauli",
+  },
+  {
+    id: "hasil",
+    label: "Hasil Tes Koran",
+    judul: "Rapor kerja per garis",
+    ket: "Grafik dijawab dan benar per garis, rata-rata, garis tertinggi dan terendah, serta kecepatan, ketelitian, keajegan, dan ketahanan.",
+    src: "/screenshot/koran-hasil.webp",
+    alamat: "app.skditumudah.com/pauli/hasil",
+  },
+];
+
+/** Galeri tangkapan layar aplikasi dengan tab, dibingkai seperti jendela peramban. */
+function GaleriAplikasi() {
+  const [aktif, setAktif] = useState(0);
+  const layar = LAYAR_APLIKASI[aktif];
+  return (
+    <section id="isi-aplikasi" aria-labelledby="judul-isi-aplikasi" className="py-16 md:py-24 bg-white">
+      <div className="max-w-7xl mx-auto px-5 sm:px-6">
+        <div className="text-center max-w-2xl mx-auto mb-8 md:mb-10">
+          <span className="inline-block bg-[#dce1ff] text-[#264191] px-4 py-1 rounded-full text-xs font-bold uppercase tracking-widest">
+            Intip Isi Aplikasi
+          </span>
+          <h2 id="judul-isi-aplikasi" className="text-3xl md:text-4xl font-black text-on-surface mt-4">
+            Begini Rasanya Latihan di Skditumudah
+          </h2>
+          <p className="text-on-secondary-container mt-3">Tangkapan layar asli dari dalam aplikasi.</p>
+        </div>
+
+        <div role="tablist" aria-label="Pilih tampilan" className="flex justify-center gap-2 mb-6 flex-wrap">
+          {LAYAR_APLIKASI.map((l, i) => (
+            <button
+              key={l.id}
+              role="tab"
+              type="button"
+              aria-selected={aktif === i}
+              onClick={() => setAktif(i)}
+              className={`rounded-full px-5 py-2.5 text-sm font-bold transition ${
+                aktif === i ? "bg-[#00236f] text-white shadow-lg shadow-blue-900/20" : "bg-[#f0f3ff] text-[#264191] hover:bg-[#dce1ff]"
+              }`}
+            >
+              {l.label}
+            </button>
+          ))}
+        </div>
+
+        <div className="grid gap-8 lg:grid-cols-[1fr_320px] items-center">
+          <div className="rounded-2xl md:rounded-3xl border border-gray-200 bg-[#e9edf7] p-2 md:p-3 shadow-2xl shadow-blue-900/15">
+            <div className="flex items-center gap-2 px-2 pb-2 md:pb-3">
+              <span className="h-3 w-3 rounded-full bg-[#ff5f57]" />
+              <span className="h-3 w-3 rounded-full bg-[#febc2e]" />
+              <span className="h-3 w-3 rounded-full bg-[#28c840]" />
+              <span className="ml-3 hidden sm:block flex-1 truncate rounded-md bg-white px-3 py-1 text-xs text-gray-500">{layar.alamat}</span>
+            </div>
+            <div className="overflow-hidden rounded-xl bg-white">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                key={layar.src}
+                src={layar.src}
+                alt={`Tangkapan layar ${layar.label} di aplikasi Skditumudah`}
+                width={1440}
+                height={900}
+                loading="lazy"
+                decoding="async"
+                className="block h-auto w-full animate-[muncul_400ms_ease-out]"
+              />
+            </div>
+          </div>
+          <div className="space-y-4">
+            <h3 className="text-2xl font-black text-on-surface">{layar.judul}</h3>
+            <p className="text-on-secondary-container leading-relaxed">{layar.ket}</p>
+            <div className="flex gap-2">
+              {LAYAR_APLIKASI.map((l, i) => (
+                <button
+                  key={l.id}
+                  type="button"
+                  aria-label={`Tampilkan ${l.label}`}
+                  onClick={() => setAktif(i)}
+                  className={`h-2 rounded-full transition-all ${aktif === i ? "w-8 bg-[#00236f]" : "w-2 bg-[#c5c5d3]"}`}
+                />
+              ))}
+            </div>
+            <a
+              href="https://app.skditumudah.com/daftar"
+              className="inline-flex items-center gap-2 rounded-xl bg-[#ffb95f] px-6 py-3 text-sm font-black text-[#2a1700] hover:opacity-90"
+            >
+              Coba Gratis Sekarang
+              <span className="material-symbols-outlined text-base">arrow_forward</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
   );
 }
