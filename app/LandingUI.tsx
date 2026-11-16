@@ -1137,6 +1137,22 @@ const LAYAR_APLIKASI = [
     alamat: "app.skditumudah.com/tryout",
   },
   {
+    id: "analitik",
+    label: "Rapor Analitik",
+    judul: "Rapor Belajar yang terukur",
+    ket: "Predikat dan nilai rapor, peluang lulus, prediksi skor per subtes, serta perbandingan dengan rapor sebelumnya. Semua dihitung dari setiap jawabanmu.",
+    src: "/screenshot/analitik.webp",
+    alamat: "app.skditumudah.com/dashboard/analitik",
+  },
+  {
+    id: "report",
+    label: "Report AI",
+    judul: "Chat Report AI: peluang lulus dan prioritas belajar",
+    ket: "Capaian per subtes, peluang lulus, faktor penentu kelulusan, materi prioritas beserta poin yang bisa dinaikkan, dan target tryout berikutnya.",
+    src: "/screenshot/report-ai.webp",
+    alamat: "app.skditumudah.com/chat-report",
+  },
+  {
     id: "koran",
     label: "Tes Koran",
     judul: "Tes Pauli dan Kraepelin tampilan CAT Koran",
