@@ -69,7 +69,7 @@ Ini bagian yang sering disalahpahami peserta. Memenuhi ambang batas hanya membua
 
 Kesimpulannya: di formasi dengan ribuan pelamar dan sedikit kursi, skor di atas ambang batas saja belum tentu aman. Peringkatlah yang menentukan.
 
-Sambil menunggu pengumuman jadwal resmi, gunakan waktu untuk memastikan [syarat dan dokumen pendaftaran CPNS 2026](https://www.skditumudah.com/syarat-dokumen-pendaftaran-cpns-2026/) Anda lengkap, lalu ukur kesiapan Anda dengan [try out SKD CPNS online di Skditumudah](https://www.skditumudah.com/tryout) yang meniru sistem CAT BKN.
+Sambil menunggu pengumuman jadwal resmi, gunakan waktu untuk memastikan [syarat dan dokumen pendaftaran CPNS 2026](/syarat-dokumen-pendaftaran-cpns-2026/) Anda lengkap, lalu ukur kesiapan Anda dengan [try out SKD CPNS online di Skditumudah](https://app.skditumudah.com/daftar) yang meniru sistem CAT BKN.
 
 ## Target Skor Aman per Jalur
 
@@ -106,7 +106,7 @@ Karena itu, angka ambang batas pada artikel ini menggunakan acuan resmi terakhir
 4. **Kerjakan try out secara berkala** dan evaluasi subtes mana yang paling banyak salah, lalu perbaiki secara bertahap.
 5. **Jaga akurasi TWK.** Materi Pancasila, UUD 1945, NKRI, dan Bhinneka Tunggal Ika bersifat hafalan terstruktur — peluang skor sempurna lebih terbuka dibanding TIU.
 
-Siap berlatih? Coba [try out SKD CPNS gratis di Skditumudah](https://app.skditumudah.com/daftar) untuk mengukur posisi skor Anda terhadap target di atas. Anda juga bisa membaca artikel terkait: [Jadwal Pendaftaran CPNS](/blog/jadwal-pendaftaran-cpns) dan [Syarat dan Dokumen CPNS](/blog/syarat-dokumen-cpns).
+Siap berlatih? Coba [try out SKD CPNS gratis di Skditumudah](https://app.skditumudah.com/daftar) untuk mengukur posisi skor Anda terhadap target di atas. Anda juga bisa membaca artikel terkait: [Jadwal Pendaftaran CPNS](/jadwal-pendaftaran-cpns-2026/) dan [Syarat dan Dokumen CPNS](/syarat-dokumen-pendaftaran-cpns-2026/).
 
 ## Pertanyaan yang Sering Diajukan
 

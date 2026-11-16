@@ -6,6 +6,7 @@ import remarkGfm from "remark-gfm";
 import { fotoUrl, getAllArticleSlugs, getArticle, getRelated } from "@/lib/articles";
 import { SITUS, sandikanJsonLd } from "../seo";
 import TombolAtas from "../components/TombolAtas";
+import { urlKategori, urlTag } from "@/lib/taksonomi";
 
 const SITE = SITUS.url;
 const DAFTAR = `${SITUS.aplikasi}/daftar`;
@@ -53,7 +54,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 }
 
 const tanggal = (iso: string) =>
-  iso ? new Date(iso).toLocaleDateString("id-ID", { day: "numeric", month: "long", year: "numeric" }) : "";
+  iso ? new Date(iso).toLocaleDateString("id-ID", { day: "numeric", month: "long", year: "numeric", timeZone: "Asia/Jakarta" }) : "";
 
 export default async function ArticlePage({ params }: PageProps) {
   const { slug } = await params;
@@ -81,7 +82,7 @@ export default async function ArticlePage({ params }: PageProps) {
         "@id": `${SITE}/#organisasi`,
         name: SITUS.nama,
         url: SITE,
-        logo: { "@type": "ImageObject", url: `${SITE}/favicon.ico` },
+        logo: { "@type": "ImageObject", url: `${SITE}/logo-512.png`, width: 512, height: 512 },
       },
     },
     {
@@ -90,7 +91,8 @@ export default async function ArticlePage({ params }: PageProps) {
       itemListElement: [
         { "@type": "ListItem", position: 1, name: "Beranda", item: `${SITE}/` },
         { "@type": "ListItem", position: 2, name: "Artikel", item: `${SITE}/artikel/` },
-        { "@type": "ListItem", position: 3, name: article.title, item: url },
+        { "@type": "ListItem", position: 3, name: article.kategori, item: `${SITE}${urlKategori(article.kategori)}` },
+        { "@type": "ListItem", position: 4, name: article.title, item: url },
       ],
     },
   ];
@@ -135,13 +137,20 @@ export default async function ArticlePage({ params }: PageProps) {
             <Link href="/artikel/" className="hover:text-primary">Artikel</Link>
           </li>
           <li aria-hidden>›</li>
-          <li className="font-medium text-primary">{article.kategori}</li>
+          <li>
+            <Link href={urlKategori(article.kategori)} className="font-medium text-primary hover:underline">
+              {article.kategori}
+            </Link>
+          </li>
         </ol>
 
         <header className="mb-6">
-          <span className="mb-3 inline-block rounded-full bg-[#dce1ff] px-3 py-1 text-[11px] font-bold uppercase tracking-wider text-[#264191]">
+          <Link
+            href={urlKategori(article.kategori)}
+            className="mb-3 inline-block rounded-full bg-[#dce1ff] px-3 py-1 text-[11px] font-bold uppercase tracking-wider text-[#264191] hover:bg-[#c9d1ff]"
+          >
             {article.kategori}
-          </span>
+          </Link>
           <h1 className="text-[1.75rem] font-extrabold leading-tight text-[#00236f] sm:text-4xl">{article.title}</h1>
           <p className="mt-3 text-base leading-relaxed text-on-surface-variant">{article.description}</p>
           <p className="mt-4 text-sm text-on-surface-variant">
@@ -172,11 +181,19 @@ export default async function ArticlePage({ params }: PageProps) {
         {article.tags.length > 0 && (
           <div className="mt-10 flex flex-wrap items-center gap-2 border-t border-outline-variant/60 pt-6">
             <span className="mr-1 text-sm font-semibold text-on-surface-variant">Tag:</span>
-            {article.tags.map((t) => (
-              <span key={t} className="rounded-full bg-[#e7eeff] px-3 py-1 text-xs font-medium text-[#00236f]">
-                #{t}
-              </span>
-            ))}
+            {article.tags.map((t) => {
+              const href = urlTag(t);
+              const kelas = "rounded-full bg-[#e7eeff] px-3 py-1 text-xs font-medium text-[#00236f]";
+              return href ? (
+                <Link key={t} href={href} className={`${kelas} hover:bg-[#d5e0ff]`}>
+                  #{t}
+                </Link>
+              ) : (
+                <span key={t} className={kelas}>
+                  #{t}
+                </span>
+              );
+            })}
           </div>
         )}
 

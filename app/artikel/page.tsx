@@ -4,6 +4,7 @@ import { fotoUrl, getAllArticles } from "@/lib/articles";
 import { SITUS, sandikanJsonLd } from "../seo";
 import DaftarArtikel, { type KartuArtikel } from "./DaftarArtikel";
 import TombolAtas from "../components/TombolAtas";
+import { getKategoriList, getTagList, urlKategori } from "@/lib/taksonomi";
 
 const JUDUL = "Artikel & Panduan SKD CPNS dan Sekolah Kedinasan";
 const DESKRIPSI =
@@ -116,6 +117,31 @@ export default function HalamanArtikel() {
 
       <div className="mx-auto max-w-6xl px-4 pb-16">
         <DaftarArtikel artikel={kartu} />
+
+        {/* Tautan biasa ke halaman kategori dan topik, supaya perayap menemukan halaman-halaman itu dari sini. */}
+        <section className="mt-14 grid gap-8 md:grid-cols-2">
+          {[
+            ["Jelajahi per kategori", getKategoriList().map((t) => [t.nama, urlKategori(t.nama), t.artikel.length] as const)],
+            ["Topik populer", getTagList().map((t) => [t.nama, `/artikel/tag/${t.slug}/`, t.artikel.length] as const)],
+          ].map(([judul, daftar]) =>
+            (daftar as readonly (readonly [string, string, number])[]).length === 0 ? null : (
+              <div key={judul as string}>
+                <h2 className="text-lg font-extrabold text-[#00236f]">{judul as string}</h2>
+                <div className="mt-3 flex flex-wrap gap-2">
+                  {(daftar as readonly (readonly [string, string, number])[]).map(([nama, href, n]) => (
+                    <Link
+                      key={href}
+                      href={href}
+                      className="rounded-full border border-[#d5dcf0] bg-white px-4 py-2 text-sm font-semibold text-[#00236f] hover:border-[#00236f]"
+                    >
+                      {nama} <span className="text-on-surface-variant">({n})</span>
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            ),
+          )}
+        </section>
 
         {/* Ajakan */}
         <section className="relative mt-16 overflow-hidden rounded-3xl bg-gradient-to-br from-[#ffb95f] to-[#ef9900] p-8 sm:p-10">

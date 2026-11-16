@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import { SITUS } from "./seo";
 import { getAllArticles } from "@/lib/articles";
+import { getKategoriList, getTagList, urlKategori } from "@/lib/taksonomi";
 
 /**
  * Peta situs halaman muka.
@@ -28,6 +29,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
+  const terbaru = (daftar: { updated: string }[]) =>
+    daftar.reduce((t, a) => (a.updated && new Date(a.updated) > t ? new Date(a.updated) : t), DIUBAH);
+  const topik = [
+    ...getKategoriList().map((t) => ({ url: `${SITUS.url}${urlKategori(t.nama)}`, lastModified: terbaru(t.artikel) })),
+    ...getTagList().map((t) => ({ url: `${SITUS.url}/artikel/tag/${t.slug}/`, lastModified: terbaru(t.artikel) })),
+  ].map((x) => ({ ...x, changeFrequency: "weekly" as const, priority: 0.6 }));
+
   return [
     {
       url: SITUS.url,
@@ -42,5 +50,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.9,
     },
     ...artikel,
+    ...topik,
   ];
 }

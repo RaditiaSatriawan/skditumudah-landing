@@ -38,7 +38,7 @@ export const KETERANGAN_SITUS = [
     name: SITUS.nama,
     alternateName: SITUS.merek,
     url: SITUS.url,
-    logo: { "@type": "ImageObject", url: `${SITUS.url}/logo.png` },
+    logo: { "@type": "ImageObject", url: `${SITUS.url}/logo-512.png` },
     description: SITUS.deskripsi,
     areaServed: { "@type": "Country", name: "Indonesia" },
   },
