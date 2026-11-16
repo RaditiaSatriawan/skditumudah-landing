@@ -5,6 +5,7 @@ import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import { fotoUrl, getAllArticleSlugs, getArticle, getRelated } from "@/lib/articles";
 import { SITUS, sandikanJsonLd } from "../seo";
+import TombolAtas from "../components/TombolAtas";
 
 const SITE = SITUS.url;
 const DAFTAR = `${SITUS.aplikasi}/daftar`;
@@ -225,6 +226,7 @@ export default async function ArticlePage({ params }: PageProps) {
         © {new Date().getFullYear()} {SITUS.merek} ·{" "}
         <Link href="/artikel/" className="hover:text-primary">Semua artikel</Link>
       </footer>
+      <TombolAtas progres />
     </main>
   );
 }

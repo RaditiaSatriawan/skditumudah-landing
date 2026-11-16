@@ -2,15 +2,17 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { fotoUrl, getAllArticles } from "@/lib/articles";
 import { SITUS, sandikanJsonLd } from "../seo";
+import DaftarArtikel, { type KartuArtikel } from "./DaftarArtikel";
+import TombolAtas from "../components/TombolAtas";
 
 const JUDUL = "Artikel & Panduan SKD CPNS dan Sekolah Kedinasan";
 const DESKRIPSI =
-  "Kumpulan panduan SKD terbaru: passing grade, contoh soal TWK, TIU, TKP beserta pembahasan, jadwal CPNS dan sekolah kedinasan, strategi belajar, dan manajemen waktu ujian CAT BKN.";
+  "Kumpulan panduan SKD terbaru 2026: passing grade, contoh soal TWK, TIU, TKP beserta pembahasan, jadwal CPNS dan sekolah kedinasan, tes Pauli dan Kraepelin, serta strategi ujian CAT BKN.";
 
 export const metadata: Metadata = {
   title: JUDUL,
   description: DESKRIPSI,
-  keywords: ["artikel cpns", "tips skd", "panduan sekolah kedinasan", "contoh soal skd", "passing grade skd"],
+  keywords: ["artikel cpns", "tips skd", "panduan sekolah kedinasan", "contoh soal skd", "passing grade skd", "tes pauli"],
   alternates: { canonical: `${SITUS.url}/artikel/` },
   openGraph: {
     title: JUDUL,
@@ -22,11 +24,23 @@ export const metadata: Metadata = {
   },
 };
 
-const tanggal = (iso: string) =>
-  iso ? new Date(iso).toLocaleDateString("id-ID", { day: "numeric", month: "short", year: "numeric" }) : "";
-
-export default function DaftarArtikel() {
+export default function HalamanArtikel() {
   const semua = getAllArticles();
+  const kartu: KartuArtikel[] = semua.map((a) => ({
+    slug: a.slug,
+    title: a.title,
+    description: a.description,
+    kategori: a.kategori,
+    tags: a.tags,
+    updated: a.updated,
+    menitBaca: a.menitBaca,
+    foto: fotoUrl(a.image, 640, 400),
+    fotoBesar: fotoUrl(a.image, 960, 600),
+    imageAlt: a.imageAlt,
+  }));
+  const jumlahKategori = new Set(semua.map((a) => a.kategori)).size;
+  const totalMenit = semua.reduce((t, a) => t + a.menitBaca, 0);
+
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
@@ -40,54 +54,99 @@ export default function DaftarArtikel() {
   };
 
   return (
-    <main className="min-h-screen bg-background text-on-background">
+    <main className="min-h-screen bg-[#f6f8ff] text-on-background">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: sandikanJsonLd(jsonLd) }} />
-      <nav className="border-b border-outline-variant/60 bg-white">
+
+      <nav className="sticky top-0 z-30 border-b border-white/10 bg-[#00236f]/95 backdrop-blur">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
-          <Link href="/" className="text-sm font-bold text-primary">
+          <Link href="/" className="text-sm font-black text-white">
             skditumudah.com
           </Link>
-          <a href={`${SITUS.aplikasi}/daftar`} className="rounded-full bg-[#ffb95f] px-4 py-1.5 text-sm font-bold text-[#00236f]">
-            Coba Gratis
-          </a>
+          <div className="flex items-center gap-4 text-sm">
+            <Link href="/" className="hidden text-[#c9d4ff] hover:text-white sm:inline">
+              Beranda
+            </Link>
+            <a href={`${SITUS.aplikasi}/daftar`} className="rounded-full bg-[#ffb95f] px-4 py-1.5 font-bold text-[#00236f] hover:opacity-90">
+              Coba Gratis
+            </a>
+          </div>
         </div>
       </nav>
 
-      <div className="mx-auto max-w-6xl px-4 py-10">
-        <header className="mb-8 max-w-2xl">
-          <h1 className="text-3xl font-extrabold leading-tight text-[#00236f] sm:text-4xl">{JUDUL}</h1>
-          <p className="mt-3 leading-relaxed text-on-surface-variant">{DESKRIPSI}</p>
-        </header>
-
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {semua.map((a, i) => (
-            <Link
-              key={a.slug}
-              href={`/${a.slug}/`}
-              className="group flex flex-col overflow-hidden rounded-2xl border border-outline-variant/60 bg-white transition-shadow hover:shadow-lg"
-            >
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src={fotoUrl(a.image, 640, 360)}
-                width={640}
-                height={360}
-                alt={a.imageAlt}
-                loading={i < 3 ? "eager" : "lazy"}
-                decoding="async"
-                className="aspect-video w-full object-cover"
-              />
-              <div className="flex flex-1 flex-col p-5">
-                <span className="text-[11px] font-bold uppercase tracking-wider text-[#264191]">{a.kategori}</span>
-                <h2 className="mt-2 text-lg font-extrabold leading-snug text-on-surface group-hover:text-primary">{a.title}</h2>
-                <p className="mt-2 line-clamp-3 flex-1 text-sm leading-relaxed text-on-surface-variant">{a.description}</p>
-                <p className="mt-4 text-xs text-on-surface-variant">
-                  {tanggal(a.updated)} · {a.menitBaca} menit baca
-                </p>
+      {/* Hero */}
+      <header className="relative overflow-hidden bg-[#00236f] pb-20 pt-12 text-white sm:pt-16">
+        <div aria-hidden className="absolute -right-24 -top-24 h-72 w-72 rounded-full bg-[#1e3a8a] blur-2xl" />
+        <div aria-hidden className="absolute -bottom-32 left-1/3 h-72 w-72 rounded-full bg-[#ffb95f]/20 blur-3xl" />
+        <div
+          aria-hidden
+          className="absolute inset-0 opacity-[0.07]"
+          style={{ backgroundImage: "radial-gradient(#fff 1px, transparent 1px)", backgroundSize: "22px 22px" }}
+        />
+        <div className="relative mx-auto max-w-6xl px-4">
+          <ol className="mb-5 flex items-center gap-1.5 text-xs text-[#c9d4ff]">
+            <li>
+              <Link href="/" className="hover:text-white">
+                Beranda
+              </Link>
+            </li>
+            <li aria-hidden>›</li>
+            <li className="font-semibold text-white">Artikel</li>
+          </ol>
+          <span className="inline-block rounded-full bg-white/10 px-3 py-1 text-[11px] font-bold uppercase tracking-[0.18em] text-[#ffb95f]">
+            Pusat Belajar 2026
+          </span>
+          <h1 className="mt-4 max-w-3xl text-3xl font-black leading-tight sm:text-5xl">{JUDUL}</h1>
+          <p className="mt-4 max-w-2xl leading-relaxed text-[#c9d4ff] sm:text-lg">{DESKRIPSI}</p>
+          <dl className="mt-8 flex flex-wrap gap-3">
+            {[
+              [String(semua.length), "artikel"],
+              [String(jumlahKategori), "kategori"],
+              [`${totalMenit}+`, "menit bacaan"],
+            ].map(([n, l]) => (
+              <div key={l} className="rounded-2xl border border-white/10 bg-white/5 px-5 py-3 backdrop-blur">
+                <dt className="sr-only">{l}</dt>
+                <dd>
+                  <span className="text-2xl font-black text-white">{n}</span> <span className="text-sm text-[#c9d4ff]">{l}</span>
+                </dd>
               </div>
-            </Link>
-          ))}
+            ))}
+          </dl>
         </div>
+      </header>
+
+      <div className="mx-auto max-w-6xl px-4 pb-16">
+        <DaftarArtikel artikel={kartu} />
+
+        {/* Ajakan */}
+        <section className="relative mt-16 overflow-hidden rounded-3xl bg-gradient-to-br from-[#ffb95f] to-[#ef9900] p-8 sm:p-10">
+          <div aria-hidden className="absolute -right-10 -top-10 h-48 w-48 rounded-full bg-white/20" />
+          <div className="relative grid items-center gap-6 md:grid-cols-[1fr_auto]">
+            <div>
+              <h2 className="text-2xl font-black text-[#2a1700] sm:text-3xl">Sudah baca teorinya? Saatnya uji diri.</h2>
+              <p className="mt-2 max-w-xl text-sm leading-relaxed text-[#5c3800] sm:text-base">
+                Tryout SKD format CAT BKN, Tes Koran Pauli dan Kraepelin, serta rapor kelemahan per subtes. Dua sesi pertama gratis.
+              </p>
+            </div>
+            <a
+              href={`${SITUS.aplikasi}/daftar`}
+              className="inline-flex items-center justify-center gap-2 rounded-full bg-[#00236f] px-7 py-4 text-sm font-black text-white shadow-xl transition hover:gap-3"
+            >
+              Mulai Tryout Gratis
+              <svg viewBox="0 0 20 20" fill="none" aria-hidden className="h-4 w-4">
+                <path d="M4 10h11m0 0-4.5-4.5M15 10l-4.5 4.5" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
+            </a>
+          </div>
+        </section>
       </div>
+
+      <footer className="border-t border-[#e2e6f3] bg-white py-6 text-center text-xs text-on-surface-variant">
+        © {new Date().getFullYear()} {SITUS.merek} ·{" "}
+        <Link href="/" className="hover:text-primary">
+          Beranda
+        </Link>
+      </footer>
+      <TombolAtas />
     </main>
   );
 }
