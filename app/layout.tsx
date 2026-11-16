@@ -35,6 +35,9 @@ export const metadata: Metadata = {
     "tryout sekolah kedinasan",
     "twk tiu tkp",
     "simulasi cat bkn",
+    "tes pauli online",
+    "tes kraepelin online",
+    "tes koran online",
   ],
   alternates: { canonical: "/" },
   openGraph: {
