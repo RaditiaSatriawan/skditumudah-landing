@@ -5,12 +5,6 @@ import { faqData } from "./constants/faq";
 import { PAKET_LIST, formatRp } from "./constants/paket";
 
 
-export const links = () => [
-  {
-    rel: "stylesheet",
-    href: "https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200",
-  },
-];
 
 
 
@@ -18,7 +12,7 @@ export const links = () => [
 const FILL_1 = { fontVariationSettings: "'FILL' 1" };
 
 export default function LandingUI({ data }: { data: any }) {
-  const { cfg, testimonis, fiturs, latestArtikels } = data;
+  const { cfg, testimonis, fiturs, latestArtikels, panduan = [] } = data;
   const [menuOpen, setMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const [openFaq, setOpenFaq] = useState<number | null>(0);
@@ -57,9 +51,12 @@ export default function LandingUI({ data }: { data: any }) {
           {/* Logo */}
           <div className="flex items-center gap-3">
             <img
-              src="/logo.png"
-              alt="skditumudah logo"
-              className="h-12 w-auto object-contain"
+              src="/logo-96.webp"
+              srcSet="/logo-96.webp 1x, /logo-192.webp 2x"
+              width={48}
+              height={48}
+              alt="Logo SKD Itu Mudah"
+              className="h-12 w-12 object-contain"
               onError={(e) => {
                 e.currentTarget.style.display = "none";
               }}
@@ -196,7 +193,11 @@ export default function LandingUI({ data }: { data: any }) {
             </div>
 
             <div className="space-y-3">
+              {/* Baris pertama H1 memuat kata kunci utama halaman; judul besar di bawahnya bisa diubah dari panel admin. */}
               <h1 className="text-4xl sm:text-5xl md:text-7xl font-black text-white leading-[1.1] tracking-tight">
+                <span className="mb-3 block text-base sm:text-lg md:text-xl font-bold tracking-normal text-white/80">
+                  Tryout SKD Online CPNS &amp; Sekolah Kedinasan
+                </span>
                 {cfg.hero_title_1 || "Siapkan Diri"}{" "}
                 <span className="text-tertiary-fixed-dim">{cfg.hero_title_2 || "Menjadi ASN"}</span>
               </h1>
@@ -248,8 +249,14 @@ export default function LandingUI({ data }: { data: any }) {
               {/* Main hero image */}
               <div className="relative bg-primary-container rounded-3xl lg:rounded-[3rem] overflow-hidden shadow-2xl rotate-1 lg:rotate-2">
                 <img
-                  src="/images/hero.jpg"
-                  alt="Student studying for SKD exam"
+                  src="/images/hero-960.webp"
+                  srcSet="/images/hero-640.webp 640w, /images/hero-960.webp 960w, /images/hero-1280.webp 1280w"
+                  sizes="(min-width: 1024px) 576px, (min-width: 640px) 448px, 92vw"
+                  width={1280}
+                  height={698}
+                  fetchPriority="high"
+                  decoding="async"
+                  alt="Peserta belajar untuk persiapan tes SKD"
                   className="w-full h-auto object-cover block"
                   onError={(e) => {
                     const parent = e.currentTarget.parentElement;
@@ -797,6 +804,7 @@ export default function LandingUI({ data }: { data: any }) {
                           day: "numeric",
                           month: "short",
                           year: "numeric",
+                          timeZone: "Asia/Jakarta",
                         })}
                       </p>
                     )}
@@ -804,6 +812,20 @@ export default function LandingUI({ data }: { data: any }) {
                 </a>
               ))}
             </div>
+            {panduan.length > 0 && (
+              <nav aria-label="Panduan populer" className="mt-10 rounded-2xl border border-gray-100 bg-white p-5 md:p-6">
+                <h3 className="text-sm font-black uppercase tracking-wider text-[#00236f]">Panduan populer</h3>
+                <ul className="mt-3 grid gap-x-6 gap-y-1 sm:grid-cols-2">
+                  {panduan.map((p: { slug: string; judul: string }) => (
+                    <li key={p.slug}>
+                      <a href={`/${p.slug}/`} className="block py-1.5 text-sm font-semibold text-gray-700 hover:text-[#00236f]">
+                        {p.judul}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </nav>
+            )}
             <div className="text-center mt-8 md:hidden">
               <a
                 href="/artikel/"
@@ -906,9 +928,13 @@ export default function LandingUI({ data }: { data: any }) {
           <div className="space-y-6">
             <div className="flex items-center gap-3">
               <img
-                src="/logo.png"
-                alt="skditumudah logo"
-                className="h-12 w-auto object-contain"
+                src="/logo-96.webp"
+                srcSet="/logo-96.webp 1x, /logo-192.webp 2x"
+                width={48}
+                height={48}
+                loading="lazy"
+                alt="Logo SKD Itu Mudah"
+                className="h-12 w-12 object-contain"
                 onError={(e) => {
                   e.currentTarget.style.display = "none";
                 }}
