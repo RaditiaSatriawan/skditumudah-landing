@@ -50,7 +50,7 @@ export default function LandingUI({ data }: { data: any }) {
         <nav
           ref={navbarRef}
           id="navbar"
-          className={`bg-white bg-opacity-95 backdrop-blur-md flex justify-between items-center px-6 py-3 max-w-7xl mx-auto w-full rounded-2xl mt-2 border border-outline-variant/20 transition-shadow duration-300 ${
+          className={`bg-white bg-opacity-95 backdrop-blur-md flex justify-between items-center px-4 sm:px-6 py-3 max-w-7xl mx-auto w-full rounded-2xl mt-2 border border-outline-variant/20 transition-shadow duration-300 ${
             scrolled ? "shadow-lg shadow-blue-900/20" : "shadow-sm"
           }`}
         >
@@ -64,13 +64,13 @@ export default function LandingUI({ data }: { data: any }) {
                 e.currentTarget.style.display = "none";
               }}
             />
-            <span className="text-on-surface font-black text-xl tracking-tight hidden sm:block">
+            <span className="whitespace-nowrap text-on-surface font-black text-xl tracking-tight hidden sm:block">
               SKD ITU MUDAH
             </span>
           </div>
 
           {/* Desktop Nav */}
-          <div className="hidden md:flex items-center gap-8">
+          <div className="hidden lg:flex items-center gap-6 xl:gap-8">
             {(
               [
                 ["Fitur", "fitur"],
@@ -101,13 +101,13 @@ export default function LandingUI({ data }: { data: any }) {
           <div className="flex items-center gap-3">
             <a
               href="https://app.skditumudah.com/login"
-              className="hidden sm:block px-5 py-2 rounded-xl border-2 border-primary text-primary font-bold hover:bg-primary-fixed transition-all active:scale-95"
+              className="hidden sm:block whitespace-nowrap px-5 py-2 rounded-xl border-2 border-primary text-primary font-bold hover:bg-primary-fixed transition-all active:scale-95"
             >
               Masuk
             </a>
             <a
               href="https://app.skditumudah.com/daftar"
-              className="px-5 py-2.5 rounded-xl bg-tertiary-fixed-dim text-on-tertiary-fixed font-bold shadow-md hover:shadow-lg transition-all active:scale-95 flex items-center gap-2"
+              className="whitespace-nowrap px-4 sm:px-5 py-2.5 rounded-xl bg-tertiary-fixed-dim text-on-tertiary-fixed font-bold shadow-md hover:shadow-lg transition-all active:scale-95 flex items-center gap-2"
             >
               Daftar Gratis
               <span className="material-symbols-outlined text-base leading-none">
@@ -115,18 +115,20 @@ export default function LandingUI({ data }: { data: any }) {
               </span>
             </a>
             <button
-              className="md:hidden p-2 text-on-surface text-xl"
+              type="button"
+              className="lg:hidden -mr-2 flex h-11 w-11 items-center justify-center rounded-xl text-on-surface transition-colors hover:bg-surface-container-low"
               onClick={() => setMenuOpen(!menuOpen)}
-              aria-label="Toggle menu"
+              aria-label={menuOpen ? "Tutup menu" : "Buka menu"}
+              aria-expanded={menuOpen}
             >
-              {menuOpen ? "✕" : "☰"}
+              <span className="material-symbols-outlined text-2xl">{menuOpen ? "close" : "menu"}</span>
             </button>
           </div>
         </nav>
 
         {/* Mobile Menu */}
         {menuOpen && (
-          <div className="md:hidden bg-white mx-2 mt-1 rounded-2xl border border-outline-variant/20 shadow-xl p-4 flex flex-col gap-1">
+          <div className="lg:hidden bg-white mx-2 mt-1 rounded-2xl border border-outline-variant/20 shadow-xl p-4 flex flex-col gap-1">
             {(
               [
                 ["Fitur", "fitur"],
@@ -266,7 +268,7 @@ export default function LandingUI({ data }: { data: any }) {
               </div>
 
               {/* Floating: Rank */}
-              <div className="hidden md:flex absolute -top-8 -left-6 glass-card p-4 rounded-2xl shadow-xl items-center gap-3 animate-bounce z-20">
+              <div className="hidden lg:flex absolute -top-8 -left-6 glass-card p-4 rounded-2xl shadow-xl items-center gap-3 animate-bounce z-20">
                 <div className="bg-green-500 p-2 rounded-full">
                   <span
                     className="material-symbols-outlined text-white text-sm leading-none"
@@ -282,7 +284,7 @@ export default function LandingUI({ data }: { data: any }) {
               </div>
 
               {/* Floating: Timer */}
-              <div className="hidden md:flex absolute bottom-12 -right-6 lg:-right-8 glass-card p-4 rounded-2xl shadow-2xl z-20 flex-col items-center">
+              <div className="hidden lg:flex absolute bottom-12 -right-8 glass-card p-4 rounded-2xl shadow-2xl z-20 flex-col items-center">
                 <span className="text-tertiary-fixed-dim text-2xl lg:text-3xl font-black font-mono tracking-widest">
                   42:18
                 </span>
@@ -292,7 +294,7 @@ export default function LandingUI({ data }: { data: any }) {
               </div>
 
               {/* Floating: Progress */}
-              <div className="hidden md:block absolute -bottom-6 left-1/4 glass-card p-4 rounded-2xl shadow-xl w-44 space-y-3 z-20">
+              <div className="hidden lg:block absolute -bottom-6 left-1/4 glass-card p-4 rounded-2xl shadow-xl w-44 space-y-3 z-20">
                 <div className="flex justify-between items-center">
                   <span className="text-white text-xs font-bold">
                     Progress Belajar
@@ -467,7 +469,7 @@ export default function LandingUI({ data }: { data: any }) {
               ] as [string, string, string, string][]
             ).map(([num, icon, title, desc]) => (
               <div key={num} className="relative group">
-                <div className="absolute -top-4 -left-3 md:-top-6 md:-left-6 text-7xl md:text-8xl font-black text-primary/5 select-none leading-none">
+                <div aria-hidden className="hidden lg:block absolute -top-4 -left-3 md:-top-6 md:-left-6 text-7xl md:text-8xl font-black text-primary/5 select-none leading-none">
                   {num}
                 </div>
                 <div className="relative bg-surface-container-lowest p-7 md:p-10 rounded-3xl shadow-sm space-y-4 md:space-y-6">
@@ -923,17 +925,16 @@ export default function LandingUI({ data }: { data: any }) {
           <div className="space-y-6">
             <h5 className="text-white font-bold">Layanan Kami</h5>
             <ul className="space-y-4">
-              {[
-                "Tryout SKD Terlengkap",
-                "Simulasi CAT Kedinasan",
-                "Bank Soal Terupdate",
-                "Mini Tryout & Tes Koran",
-              ].map((item) => (
+              {(
+                [
+                  ["Tryout SKD Terlengkap", "#fitur"],
+                  ["Simulasi CAT Kedinasan", "#isi-aplikasi"],
+                  ["Bank Soal Terupdate", "#statistik"],
+                  ["Mini Tryout & Tes Koran", "#tes-koran"],
+                ] as [string, string][]
+              ).map(([item, href]) => (
                 <li key={item}>
-                  <a
-                    href="#"
-                    className="text-sm text-slate-400 hover:text-tertiary-fixed-dim transition-colors"
-                  >
+                  <a href={href} className="inline-flex py-1 text-sm text-slate-400 hover:text-tertiary-fixed-dim transition-colors">
                     {item}
                   </a>
                 </li>
@@ -946,46 +947,33 @@ export default function LandingUI({ data }: { data: any }) {
             <h5 className="text-white font-bold">Kontak & Perusahaan</h5>
             <ul className="space-y-4">
               <li>
-                <a href="https://wa.me/6285128075256" target="_blank" rel="noreferrer" className="flex items-center gap-2 text-sm text-slate-400 hover:text-tertiary-fixed-dim transition-colors">
+                <a href="https://wa.me/6285128075256" target="_blank" rel="noreferrer" className="flex items-center gap-2 py-1 text-sm text-slate-400 hover:text-tertiary-fixed-dim transition-colors">
                   <span className="material-symbols-outlined text-sm">chat</span>
                   WhatsApp: 085128075256
                 </a>
               </li>
               <li>
-                <a href="mailto:skditumudah02@gmail.com" className="flex items-center gap-2 text-sm text-slate-400 hover:text-tertiary-fixed-dim transition-colors">
+                <a href="mailto:skditumudah02@gmail.com" className="flex items-center gap-2 py-1 text-sm text-slate-400 hover:text-tertiary-fixed-dim transition-colors">
                   <span className="material-symbols-outlined text-sm">mail</span>
                   skditumudah02@gmail.com
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-sm text-slate-400 hover:text-tertiary-fixed-dim transition-colors">
-                  Syarat & Ketentuan
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-sm text-slate-400 hover:text-tertiary-fixed-dim transition-colors">
-                  Kebijakan Privasi
                 </a>
               </li>
             </ul>
           </div>
 
-          {/* Newsletter */}
+          {/* Tips belajar */}
           <div className="space-y-6">
-            <h5 className="text-white font-bold">Berlangganan Tips</h5>
+            <h5 className="text-white font-bold">Tips Belajar SKD</h5>
             <p className="text-sm text-slate-400">
-              Dapatkan tips &amp; trik lolos SKD langsung ke email kamu.
+              Panduan passing grade, contoh soal TWK, TIU, TKP, dan strategi ujian CAT, diperbarui untuk seleksi 2026.
             </p>
-            <div className="flex gap-2">
-              <input
-                type="email"
-                placeholder="Email kamu"
-                className="bg-white/10 border-0 rounded-xl px-3 py-2.5 text-sm text-white placeholder-slate-500 focus:ring-2 focus:ring-tertiary-fixed-dim w-full min-w-0"
-              />
-              <button className="bg-tertiary-fixed-dim text-on-tertiary-fixed p-2.5 rounded-xl hover:opacity-90 transition-opacity flex-shrink-0">
-                <span className="material-symbols-outlined text-xl">send</span>
-              </button>
-            </div>
+            <a
+              href="/artikel/"
+              className="inline-flex items-center gap-2 rounded-xl bg-tertiary-fixed-dim px-5 py-3 text-sm font-bold text-on-tertiary-fixed hover:opacity-90 transition-opacity"
+            >
+              Baca Artikel
+              <span className="material-symbols-outlined text-base">arrow_forward</span>
+            </a>
           </div>
         </div>
 
@@ -993,24 +981,6 @@ export default function LandingUI({ data }: { data: any }) {
           <p className="text-sm text-slate-300">
             © {new Date().getFullYear()} skditumudah.com - Teman Belajar SKD Terpercaya
           </p>
-          <div className="flex items-center gap-6">
-            {(
-              [
-                ["social_leaderboard", "Instagram"],
-                ["play_circle", "YouTube"],
-                ["language", "Website"],
-              ] as [string, string][]
-            ).map(([icon, label]) => (
-              <a
-                key={icon}
-                href="#"
-                aria-label={label}
-                className="text-slate-400 hover:text-white transition-colors opacity-80 hover:opacity-100"
-              >
-                <span className="material-symbols-outlined">{icon}</span>
-              </a>
-            ))}
-          </div>
         </div>
       </footer>
     </div>
@@ -1187,7 +1157,7 @@ function GaleriAplikasi() {
           <p className="text-on-secondary-container mt-3">Tangkapan layar asli dari dalam aplikasi.</p>
         </div>
 
-        <div role="tablist" aria-label="Pilih tampilan" className="flex justify-center gap-2 mb-6 flex-wrap">
+        <div role="tablist" aria-label="Pilih tampilan" className="-mx-5 mb-6 flex snap-x gap-2 overflow-x-auto px-5 pb-1 [scrollbar-width:none] sm:mx-0 sm:flex-wrap sm:justify-center sm:overflow-visible sm:px-0 [&::-webkit-scrollbar]:hidden">
           {LAYAR_APLIKASI.map((l, i) => (
             <button
               key={l.id}
@@ -1195,7 +1165,7 @@ function GaleriAplikasi() {
               type="button"
               aria-selected={aktif === i}
               onClick={() => setAktif(i)}
-              className={`rounded-full px-5 py-2.5 text-sm font-bold transition ${
+              className={`shrink-0 snap-start whitespace-nowrap rounded-full px-4 py-2.5 text-sm font-bold transition sm:px-5 ${
                 aktif === i ? "bg-[#00236f] text-white shadow-lg shadow-blue-900/20" : "bg-[#f0f3ff] text-[#264191] hover:bg-[#dce1ff]"
               }`}
             >
@@ -1212,7 +1182,7 @@ function GaleriAplikasi() {
               <span className="h-3 w-3 rounded-full bg-[#28c840]" />
               <span className="ml-3 hidden sm:block flex-1 truncate rounded-md bg-white px-3 py-1 text-xs text-gray-500">{layar.alamat}</span>
             </div>
-            <div className="overflow-hidden rounded-xl bg-white">
+            <a href={layar.src} target="_blank" rel="noopener" aria-label={`Buka tangkapan layar ${layar.label} ukuran penuh`} className="block overflow-hidden rounded-xl bg-white">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 key={layar.src}
@@ -1224,7 +1194,7 @@ function GaleriAplikasi() {
                 decoding="async"
                 className="block h-auto w-full animate-[muncul_400ms_ease-out]"
               />
-            </div>
+            </a>
           </div>
           <div className="space-y-4">
             <h3 className="text-2xl font-black text-on-surface">{layar.judul}</h3>

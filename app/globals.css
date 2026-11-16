@@ -1,6 +1,7 @@
 @import "tailwindcss";
 
 @theme {
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   --color-royal-blue: #1E3A8A;
   --color-slate-white: #F1F5F9;
   --color-deep-charcoal: #1E293B;
@@ -61,8 +62,24 @@
   --color-on-error-container: #93000a;
 }
 
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: var(--font-sans);
+}
+
+a, button, [role="button"], [role="tab"], summary, input {
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+}
+
+@media (pointer: coarse) {
+  input:not([type="checkbox"]):not([type="radio"]), select, textarea {
+    font-size: max(16px, 1em);
+  }
 }
 
 /* --- Article (markdown) typography --- */

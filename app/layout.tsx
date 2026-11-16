@@ -3,7 +3,8 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { SITUS } from "./seo";
 
-const inter = Inter({ subsets: ["latin"] });
+// Variabel --font-inter dipakai token --font-sans Tailwind, jadi kelas font-sans pun memakai Inter.
+const inter = Inter({ subsets: ["latin"], variable: "--font-inter", display: "swap" });
 
 /**
  * Penanda untuk seluruh halaman.
@@ -70,7 +71,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="id">
+    <html lang="id" className={inter.variable}>
       <body className={`${inter.className} min-h-screen bg-background antialiased`}>
         {children}
       </body>
