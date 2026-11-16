@@ -1,6 +1,7 @@
 "use client";
 /* eslint-disable */
 import { useState, useEffect, useRef } from "react";
+import { faqData } from "./constants/faq";
 import { PAKET_LIST, formatRp } from "./constants/paket";
 
 
@@ -12,33 +13,7 @@ export const links = () => [
 ];
 
 
-const faqData = [
-  {
-    question: "Apakah materi soal sesuai kisi-kisi terbaru?",
-    answer:
-      "Tentu saja! Tim kami selalu memperbarui bank soal setiap kali ada update resmi dari BKN mengenai kisi-kisi SKD CPNS maupun Sekolah Kedinasan tahun 2024.",
-  },
-  {
-    question: "Berapa lama masa aktif paket premium?",
-    answer:
-      "Masa aktif paket Premium adalah 1 bulan, Premium Plus 3 bulan, dan Premium Sultan 12 bulan sejak tanggal aktivasi.",
-  },
-  {
-    question: "Apakah bisa diakses lewat smartphone?",
-    answer:
-      "Tentu! Platform kami sepenuhnya responsif dan bisa diakses dari HP, tablet, maupun laptop dengan nyaman.",
-  },
-  {
-    question: "Metode pembayaran apa saja yang tersedia?",
-    answer:
-      "Kami menerima transfer bank, QRIS, GoPay, OVO, Dana, dan berbagai metode pembayaran digital lainnya.",
-  },
-  {
-    question: "Apakah ada garansi uang kembali?",
-    answer:
-      "Ya! Kami memberikan garansi uang kembali 7 hari jika kamu tidak puas dengan layanan kami.",
-  },
-];
+
 
 const FILL_1 = { fontVariationSettings: "'FILL' 1" };
 
@@ -558,6 +533,77 @@ export default function LandingUI({ data }: { data: any }) {
                 </p>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── Tes Koran Section ── */}
+      <section id="tes-koran" aria-labelledby="judul-tes-koran" className="py-16 md:py-24 bg-surface-container">
+        <div className="max-w-7xl mx-auto px-5 sm:px-6 grid gap-10 lg:grid-cols-2 items-center">
+          <div className="space-y-5">
+            <span className="inline-block bg-[#dce1ff] text-[#264191] px-4 py-1 rounded-full text-xs font-bold uppercase tracking-widest">
+              Psikotes
+            </span>
+            <h2 id="judul-tes-koran" className="text-3xl md:text-4xl font-black text-on-surface">
+              Tes Pauli dan Tes Kraepelin Online
+            </h2>
+            <p className="text-on-secondary-container text-base md:text-lg leading-relaxed">
+              Latihan tes koran untuk seleksi sekolah kedinasan, TNI/Polri, BUMN, dan perusahaan. Kerjakan langsung di browser
+              dengan aturan seperti tes aslinya, lalu lihat rapor kerja Anda per garis.
+            </p>
+            <ul className="grid gap-3 sm:grid-cols-2 text-sm">
+              {[
+                ["Dua jenis tes", "Tes Pauli (ke bawah) dan Tes Kraepelin (ke atas)."],
+                ["Dua tampilan", "Single Line atau lembar penuh CAT Koran dengan numpad."],
+                ["Durasi fleksibel", "5, 10, 15, 20, atau 30 menit; pindah lajur tiap 1 menit."],
+                ["Rapor terukur", "Grafik per garis, kecepatan, ketelitian, keajegan, ketahanan."],
+              ].map(([j, k]) => (
+                <li key={j} className="bg-white rounded-2xl p-4 border border-gray-100">
+                  <p className="font-bold text-on-surface">{j}</p>
+                  <p className="text-on-secondary-container mt-1 leading-relaxed">{k}</p>
+                </li>
+              ))}
+            </ul>
+            <a
+              href="https://app.skditumudah.com/daftar"
+              className="inline-flex items-center gap-2 bg-[#00236f] text-white px-6 py-3 rounded-xl font-bold hover:opacity-90"
+            >
+              Coba Tes Koran Gratis
+              <span className="material-symbols-outlined text-base">arrow_forward</span>
+            </a>
+          </div>
+          <div aria-hidden className="bg-white rounded-3xl p-5 md:p-7 shadow-xl border border-gray-100">
+            <div className="flex items-center justify-between mb-4 text-xs">
+              <span className="font-black text-[#00236f]">Tes Pauli · CAT Koran</span>
+              <span className="flex gap-2">
+                <span className="rounded-lg bg-[#f0f3ff] px-2.5 py-1 font-mono font-bold text-[#00236f]">00:42</span>
+                <span className="rounded-lg bg-[#00236f] px-2.5 py-1 font-mono font-bold text-white">09:42</span>
+              </span>
+            </div>
+            <div className="flex gap-1.5 overflow-hidden">
+              {[
+                [7, 2, 4, 3, 8, 6, 5, 1, 9, 0],
+                [3, 8, 6, 1, 0, 2, 9, 4, 7, 5],
+                [9, 5, 2, 7, 4, 1, 6, 8, 3, 2],
+                [1, 6, 3, 8, 5, 9, 0, 2, 4, 7],
+                [4, 0, 7, 2, 9, 3, 8, 6, 1, 5],
+                [8, 3, 1, 6, 2, 7, 4, 9, 5, 0],
+                [2, 7, 9, 4, 6, 0, 3, 5, 8, 1],
+              ].map((kol, k) => (
+                <div key={k} className={`flex flex-col gap-0.5 rounded-lg p-0.5 ${k === 0 ? "bg-amber-50 ring-2 ring-amber-300" : ""}`}>
+                  {kol.map((a, r) => (
+                    <span
+                      key={r}
+                      className={`flex h-7 w-8 items-center justify-center rounded-md border font-mono text-sm ${
+                        k === 0 && (r === 3 || r === 4) ? "border-[#00236f] bg-[#dce1ff] font-black text-[#00236f]" : k === 0 && r < 3 ? "border-transparent text-gray-400" : "border-gray-200 text-gray-800"
+                      }`}
+                    >
+                      {a}
+                    </span>
+                  ))}
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </section>

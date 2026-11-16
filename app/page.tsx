@@ -1,4 +1,5 @@
 import LandingUI from "./LandingUI";
+import { faqData } from "./constants/faq";
 import { KETERANGAN_SITUS, sandikanJsonLd } from "./seo";
 import { fotoUrl, getAllArticles } from "@/lib/articles";
 
@@ -71,6 +72,21 @@ export default async function Page() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: sandikanJsonLd(KETERANGAN_SITUS) }}
+      />
+      {/* Tanya-jawab di bagian FAQ, supaya mesin pencari dapat menampilkannya sebagai hasil kaya. */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: sandikanJsonLd({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: faqData.map((f) => ({
+              "@type": "Question",
+              name: f.question,
+              acceptedAnswer: { "@type": "Answer", text: f.answer },
+            })),
+          }),
+        }}
       />
       <LandingUI data={landingData} />
     </>
